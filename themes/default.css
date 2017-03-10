@@ -1,6 +1,6 @@
-.subtitle {
+.reveal p.subtitle {
   font-size: 1.3em; 
-  margin: 0 0 20px 0;
+  margin: 0 0 90px 0;
   color: #222;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
@@ -13,3 +13,7 @@
 section.has-dark-background .subtitle {
   color: #fff;
   }
+
+.has-dark-background a {
+  color: #98bdef;
+}
