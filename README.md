@@ -1,12 +1,12 @@
 # Presentations & Slides by Jonas Jacek
 
-[This repository](https://github.com/jonasjacek/presentations) contains slides and presentations (in HTML and PDF format) by [Jonas Jared Jacek](http://jonas.me/). HTML slides are based on [Reveal.js](https://github.com/hakimel/reveal.js). A copy of the reveal.js version used can be found in `/engines/`. 
+[This repository](https://github.com/jonasjacek/presentations) contains slides and presentations (in HTML and PDF format) by [Jonas Jared Jacek](http://jonas.me/). HTML slides are based on [Reveal.js](https://github.com/hakimel/reveal.js). A copy of the reveal.js version used can be found in `/engines/`. The slides are licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](#license). 
 
 ## Overview
 
 Date | Event
 ------------ | -------------
-
+2017-05-09 | webXpert Conference
 
 ## License
 
