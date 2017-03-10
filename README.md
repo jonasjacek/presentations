@@ -6,6 +6,7 @@ This repository contains slides and presentations (in HTML and PDF format) by [J
 Slide contents are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>). Permissions beyond the scope of this license may be available upon request at <a xmlns:cc="http://creativecommons.org/ns#" href="http://jonas.me/#contact" rel="cc:morePermissions">http://jonas.me/</a>.
 
 ## Overview
+Table of slides and presentations contained within this repository.
 
 Date | Event | Location | Language
 ------------ | ------------- | ------------- | -------------
