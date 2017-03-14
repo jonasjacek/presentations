@@ -1,13 +1,28 @@
+.reveal .slides {
+  text-align: left;
+}
+/* START - First Page */
+.start {
+  text-align: center;
+}
 .start small {
   background: #024068;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  padding: .2em .3em;
+  padding: .2em .4em;
   }
 
+/* TOPIC */
+.topic {
+  text-align: center;
+}
+.topic p {
+  color: #577F00;
+}
+
 .reveal p.subtitle {
-  font-size: 1.3em; 
+  font-size: 1em; 
   margin: 0 0 90px 0;
   color: #222;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
