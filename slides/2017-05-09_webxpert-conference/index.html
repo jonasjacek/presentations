@@ -13,8 +13,6 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
     <link rel="stylesheet" href="../../engines/2017-03-10/css/theme/white.css">
     <link rel="stylesheet" href="../../themes/default.css">
     
-    <link rel="stylesheet" href="internet-web-standards-bcp/css/style.css">
-
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="../../engines/2017-03-10/lib/css/zenburn.css">
 
@@ -31,8 +29,8 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 		<div class="reveal">
 			<div class="slides">
 			  
-			  <!-- START -->
-			  <section class="start" data-background="#005C8E">
+			  <!-- ENVELOPE: FRONT -->
+			  <section class="envelope" data-background="#005C8E">
 			    <h1>Standards</h1>
 			    <p class="subtitle">Einführung zu Internet- und Webstandards</p>
 			    <small>Author: <a href="http://jonas.me/">Jonas Jared Jacek</a> &middot; License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></small>
@@ -153,15 +151,15 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           <section>
             <h3>Normungsgremien</h3> 
             <ul>
-              <li>Internet Engineering Task Force (IETF)<br><small>Entwickelt und publiziert Internetstandards und Best Current Practices</small></li>
-              <li>World Wide Web Consortium (W3C)<br><small>Entwickelt und publiziert Webstandards</small></li>
+              <li>Internet Engineering Task Force (IETF)<br><small>Entwickelt und publiziert Internetstandards und Best Current Practices.</small></li>
+              <li>World Wide Web Consortium (W3C)<br><small>Entwickelt und publiziert Webstandards.</small></li>
               <li>International Organization for Standardization (ISO)<br><small>Entwickelt und (re)publiziert allgemeine Standards, Internet- und Webstandards.</small></li>
               <li>etc.</li>
             </ul>
           </section>
           <section>
-            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="ietf-logo.svg">
-            <h4>Internet Engineering Task Force (IETF)</h4> 
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="ietf-logo.svg" alt="IETF Logo">
+            <h4 style="margin: 0 0 1.5em;">Internet Engineering Task Force (IETF)</h4> 
             <table>
               <tbody>
                 <tr>
@@ -170,22 +168,34 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
                 </tr>
                 <tr>
                   <th>Standards</th>
-                  <td>TCP/IP, IPv6, HTTP, DNS, etc.</td>
+                  <td>TCP, IP, HTTP, DNS, etc.</td>
                 </tr>
                 <tr>
                   <th>Mitglieder</th>
                   <td>80.000+ Personen</td>
                 </tr>
-                <tr>
-                  <th>Gegründet:</th>
-                  <td>1986</td>
-                </tr>
-              </tbody>
             </table>
           </section>
           <section>
-            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="w3c-logo.svg">
-            <h4>World Wide Web Consortium (W3C)</h4> 
+            <h5>Mitglieder (Beispiel)</h5>
+            <ul>
+              <li>Jari Arkko, <i>Ericsson</i></li>
+              <li>Ben Campbell, <i>Oracle</i></li>
+              <li>Benoit Claise, <i>Cisco</i></li>
+              <li>Deborah Brungard, <i>AT&T</i></li>
+              <li>Stephen Farrell, <i>Trinity College Dublin</i></li>
+              <li>Kathleen Moriarty, <i>Dell EMC</i></li>
+              <li>Mirja Kühlewind, <i>ETH Zurich</i></li>
+              <li>&hellip;</li>
+            </ul>
+          </section>
+          <section>
+            <h5>IETF - Working Group</h5>
+            <img src="ietf-wg.jpg" alt="IETF Working Group"></a>
+          </section>
+          <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="w3c-logo.svg" alt="W3C Logo">
+            <h4 style="margin: 0 0 1.5em;">World Wide Web Consortium (W3C)</h4> 
             <table>
               <tbody>
                 <tr>
@@ -200,16 +210,28 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
                   <th>Mitglieder</th>
                   <td>451 Organisationen</td>
                 </tr>
-                <tr>
-                  <th>Gegründet:</th>
-                  <td>1994</td>
-                </tr>
-              </tbody>
             </table>
           </section>
           <section>
-            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="iso-logo.svg">
-            <h4>International Organization for Standardization (ISO)</h4> 
+            <h5>Mitglieder (Beispiel)</h5>
+            <ul>
+              <li>Arron Eicholz, </i>Microsoft</li>
+              <li>Alex Danilo, </i>Google</li>
+              <li>Edward O'Connor, </i>Apple Inc.</li>
+              <li>Jonathan Watt, </i>Mozilla Corporation</li>
+              <li>Erik Dahlström, </i>Opera Software</li>
+              <li>Anthony Grasso, </i>Canon Inc.</li>
+              <li>Steve Faulkner, </i>The Paciello Group</li>
+              <li>&hellip;</li>
+            </ul>
+          </section>
+          <section>
+            <h5>W3C - Multilingual Web Workshop</h5>
+            <img src="w3c-mlw.jpg" alt="W3C Multilingual Weg Workshop"></a>
+          </section>
+          <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="iso-logo.svg" alt="ISO Logo">
+            <h4 style="margin: 0 0 1.5em;">International Organization for Standardization (ISO)</h4> 
             <table>
               <tbody>
                 <tr>
@@ -224,17 +246,12 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
                   <th>Mitglieder</th>
                   <td>162 Länder</td>
                 </tr>
-                <tr>
-                  <th>Gegründet:</th>
-                  <td>1947</td>
-                </tr>
-              </tbody>
             </table>
           </section>
           <section>
             <h4>Gemeinsamkeiten</h4> 
             <ul>
-              <li><strong>Gesellschaftlich breit aufgestellt</strong><br><small>Regierungsvertreter, Universitäten, Privatunternehmen, Organisationen, &hellip;</small></li>
+              <li><strong>Gesellschaftlich breit aufgestellt</strong><br><small>Regierungsvertreter, Akademiker (R&D), Privatunternehmen, Organisationen, &hellip;</small></li>
               <li><strong>Offene Prozesse</strong><br><small>(Größtenteils) transparente Prozesse, Beteiligung/Feedback ist möglich und gefordert.</small></li>
               <li><strong>Freie Nutzung</strong><br><small>Standards sind frei zugänglich, kostenfreie Nutzung, weite Verbreitung ist angestrebt.</small></li>
             </ul>
@@ -249,38 +266,32 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           </section>
           <section>
             <h3>Grundwortschatz</h3>
-            <p>Standards entsprechen den Sprachen des Internet und des World Wide Web.</p>
+            <p>Standards entsprechen den Sprachen des Internet und des World Wide Web. Sie harmonisieren das Senden und Empfangen von Informationen.</p>
+          </section>
+          <section>
+            <h3>Mitsprache</h3>
+            <p>Wenn Sie mitsprechen wollen, müssen Sie Standards beherrschen.</p>
           </section>
           <section>
             <h3>Verständigung</h3>
-            <p>Standards erlauben das Senden und Empfangen von Informationen (Interoperabilität).</p>
-            <p>Die gemeinsam gesprochenen Sprachen ermöglichen Kommunikation zwischen den verschiedenen Akteuren.</p>
+            <p>Erst die gemeinsam gesprochenen Sprachen ermöglichen Kommunikation zwischen den verschiedenen Akteuren.</p>
           </section>
           <section>
-            <h3>Akteure</h3>
+            <h4>Akteure sind zum Beispiel &hellip;</h4>
             <ul>
               <li><strong>Benutzer</strong><br><small>Konsumenten, Content Provider, &hellip;</small></li>
-              <li><strong>Browser Software</strong><br><small>Firefox, Chrome, Safari, Internet Explorer, &hellip;</small></li>
+              <li><strong>Browser Software</strong><br><small>Firefox (Gecko), Chrome (Webkit), Internet Explorer (Trident), Edge (EdgeHTML), &hellip;</small></li>
               <li><strong>Web Applications</strong><br><small>Suchmaschinen, Online Shops, Soziale Netzwerke, &hellip;</small></li>
               <li><strong>Content Provider</strong><br><small>Verlagswebseiten, Video-Plattformen, Informationsportale, &hellip;</small></li>
             </ul>
           </section>
           <section>
-            <h4>Beispiel 1</h4>
+            <h4>Beispiel</h4>
             <p>Web Application // Content Provider<br><small>Suchmaschine crawlt Inhalte von Verlagswebseite.</small></p>
             <ul>
               <li><strong>Internetstandards</strong><br><small>IP, DNS, HTTP, &hellip;</small></li>
               <li><strong>Webstandards</strong><br><small>HTML, WCAG, Microdata, CSS, &hellip;</small></li>
               <li><strong>Best (Current) Practices</strong><br><small>Robots Exclusion Protocol (Robots.txt), Language Codes, &hellip;</small></li>
-            </ul>
-          </section>
-          <section>
-            <h4>Beispiel 2</h4>
-            <p>Browser Software // Content Provider<br><small>Browser zeigt (rendert) Inhalte von Verlagswebseite.</small></p>
-            <ul>
-              <li><strong>Internetstandards</strong><br><small>IP, DNS, HTTP, &hellip;</small></li>
-              <li><strong>Webstandards</strong><br><small>HTML, CSS, Webfonts, SVG, WCAG, Microdata, &hellip;</small></li>
-              <li><strong>Best (Current) Practices</strong><br><small>Language Codes, &hellip;</small></li>
             </ul>
           </section>
           <section>
@@ -294,16 +305,59 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           </section>
           <section>
             <h3>Wichtig</h3>
-            <p>Standards beherrschen ist eine Vorraussetzung für den Erfolg eines jeden Akteurs.</p>
+            <p>Standards zu beherrschen ist eine Vorraussetzung für den Erfolg eines jeden Akteurs.</p>
+          </section>
+
+          <!-- CONFERENCE-SPECIFIC -->
+          <section>
+            <h2 style="text-align: center;">Worauf sollten Sie achten?</h2>
+          </section>
+          <section>
+            <h3>Empfehlung 1</h3>
+            <p>Sie sollten die Standards kennen, die für Ihr Produkt/Ihren Markt wichtig sind.</p>
+            <ul>
+              <li><a href="https://www.rfc-editor.org/standards">Liste mit Internetstandards</a></li>
+              <li><a href="https://www.w3.org/TR/">Liste mit Webstandards</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Empfehlung 2</h3>
+            <p>Sie sollten sich regelmäßig über Standards, die für Ihr Produkt/Ihren Markt wichtig sind, informieren.</p>
+            <small>Dem Markt vorraus sein: Gucken Sie, welche Standards neu entstehen (RFC's).</small>
+          </section>
+          <section>
+            <h3>Empfehlung 3</h3>
+            <p>(Externe) Mitarbeiter sollten die Standards, die für Ihr Produkt wichtig sind, kennen und beherrschen.</p>
+            <small>Zu oft wird veraltetes und/oder falsches Wissen angewendet.</small>
+          </section>
+          <section>
+            <h3>Empfehlung 4</h3>
+            <p>Fordern Sie die (fehlerfreie) Nutzung von konkreten Standards wenn Sie Leistungen kaufen (z.B. Hosting, HTML-Templates, Landingpages, &hellip;)</p>
+            <small>Überprüfbarkeit und Bewertung der Qualität: Bestellte Leistung = erbrachte Leistung?</small>
           </section>
         </section>
-
+        
+        <!-- DISKUSSION -->
         <section>
           <section class="topic">
             <h2>Diskussion</h2>
             <p>Fragen & Diskussion zur Nutzung von Standards.</p>
           </section>
+          <section>
+            <h3>Kontakt</h3> 
+            <p>Weitere Informationen und Kontaktdaten unter:</p>
+            <ul>
+              <li><a href="http://jonas.me/">http://jonas.me/</a></li>
+              <li><a href="http://neu.land/">http://neu.land/</a></li>
+            </ul>
+          </section>
         </section>
+        
+        <!-- ENVELOPE: BACK -->
+			  <section class="envelope" data-background="#005C8E">
+			    <h2>Vielen Dank!</h2>
+			    <small>Author: <a href="http://jonas.me/">Jonas Jared Jacek</a> &middot; License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></small>
+			  </section>
 			</div>
 		</div>
 

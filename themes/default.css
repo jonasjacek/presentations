@@ -2,10 +2,10 @@
   text-align: left;
 }
 /* START - First Page */
-.start {
+.envelope {
   text-align: center;
 }
-.start small {
+.envelope small {
   background: #024068;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -40,7 +40,10 @@ section.has-dark-background .subtitle {
 .has-dark-background a {
   color: #98bdef;
 }
+.reveal section img {
+  border: 1px solid #333;
+}
 
-table {
+.reveal section table {
   margin: 0 !important;
 }
