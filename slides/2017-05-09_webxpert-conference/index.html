@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 
-<!-- 
-
-Slide contents are licensed by Jonas Jared Jacek (http://jonas.me/) with a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You can find the full license at https://raw.githubusercontent.com/jonasjacek/presentations/master/LICENSE. 
-
-The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/engines/2017-03-10/LICENSE.
-
--->
+<!-- Slide contents are licensed by Jonas Jared Jacek (http://jonas.me/) with a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You can find the full license at https://raw.githubusercontent.com/jonasjacek/presentations/master/LICENSE. 
+The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/engines/2017-03-10/LICENSE. -->
 
 <html lang="de">
-	<head>
-		<meta charset="utf-8">
-		<meta name="robots" content="noindex,nofollow,noarchive">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>Web & Internet Standards | webXpert</title>
-
-		<link rel="stylesheet" href="../../engines/2017-03-10/css/reveal.css">
-		<link rel="stylesheet" href="../../engines/2017-03-10/css/theme/white.css">
-		<link rel="stylesheet" href="../../themes/default.css">
+  <head>
+  	<meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Internet- und Webstandards | webXpert</title>
+    <link rel="stylesheet" href="../../engines/2017-03-10/css/reveal.css">
+    <link rel="stylesheet" href="../../engines/2017-03-10/css/theme/white.css">
+    <link rel="stylesheet" href="../../themes/default.css">
+    
+    <link rel="stylesheet" href="internet-web-standards-bcp/css/style.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="../../engines/2017-03-10/lib/css/zenburn.css">
@@ -49,7 +44,8 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 				  <ul>
             <li><strong>Was sind Standards?</strong><br><small>Überblick über Standards im Internet. Definitionen, Beispiele und Links.</small></li>
             <li><strong>Wer macht Standards?</strong><br><small>Informationen zu Normungsgremien. Strukturen, Standards und Links.</small></li>
-            <li><strong>Vorteile durch Standards?</strong><br><small>Beispiele für Vorteile durch die Nutzung von Standards.</small></li>
+            <li><strong>Vorteile durch Standards?</strong><br><small>Beispiele für Vorteile durch Nutzung von Standards. Was Entscheider wissen müssen.</small></li>
+            <li><strong>Diskussion</strong><br><small>Beantwortung von Fragen. Diskussion zur Nutzung von Standards.</small></li>
 				  </ul>
 				</section>
 
@@ -69,7 +65,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           </section>
           <section>
             <h3>Internetstandards</h3>
-            <p>Technische Spezifikation, die ...</p>
+            <p>Technische Spezifikationen, die ...</p>
             <ul>
               <li>Funktionsweisen des Internet beschreiben</li>
               <li>einen sehr hohen Reifegrad haben</li>
@@ -82,13 +78,12 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
               <li>Internet Protocol (<a href="https://tools.ietf.org/html/rfc791">IP</a>)</li>
               <li>Domain Name System (<a href="https://tools.ietf.org/html/rfc1035">DNS</a>)</li>
               <li>Hypertext Transfer Protocol (<a href="https://tools.ietf.org/html/rfc2616">HTTP</a>)</li>
-              <li>File Transfer Protocol (<a href="https://tools.ietf.org/html/rfc959">FTP</a>)</li>
               <li>...</li>
             </ul>
           </section>
           <section>
             <h3>Webstandards</h3>
-            <p>Technische Spezifikation, die ...</p>
+            <p>Technische Spezifikationen, die ...</p>
             <ul>
               <li>Funktionsweisen des World Wide Web beschreiben</li>
               <li>einen sehr hohen Reifegrad haben</li>
@@ -101,17 +96,27 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
               <li>Hypertext Markup Language (<a href="http://www.w3.org/TR/html/">HTML</a>)</li>
               <li>Cascading Syle Sheets (<a href="https://www.w3.org/TR/CSS/">CSS</a>)</li>
               <li>Web Open Font Format (<a href="https://www.w3.org/TR/WOFF2/">WOFF</a>)</li>
-              <li>Webmention (<a href="https://www.w3.org/TR/webmention/">Webmention</a>)</li>
               <li>...</li>
             </ul>
           </section>
+          <section style="text-align: center;">
+            <h3>Übersicht</h3>
+            <div style="width: 100%;">
+              <div style="border: 1px solid #000; border-radius: 50%; background: #71C2F7; height: 450px; width: 450px; position: relative; margin: 0 auto; text-align: center;" class="istd">
+                <p style="margin: 2em 0; font-size: .6em;">Internet Standards</p>
+                <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 225px; width: 225px; position: absolute; top: 25%; left: 25%; z-index: 1; text-align: center;" class="wstd">
+                  <p style="margin: 2.8em 0; font-size: .6em;">Web Standards</p>
+                </div>
+              </div>
+            </div>
+          </section>
           <section>
             <h3>Best (Current) Practices</h3>
-            <p>Sind technische Spezifikation, die ...</p>
+            <p>Sind (nicht)technische Spezifikationen, die ...</p>
             <ul>
-              <li>flexibler sind als ein Standard</li>
-              <li>sich noch entwickeln</li>
-              <li>ein beachtliches Leistungsniveau erreicht haben.</li>
+              <li>flexibler sind als Standards</li>
+              <li>Diskussionen anregen und ermöglichen sollen</li>
+              <li>keine Standards werden können.</li>
             </ul>
           </section>
           <section>
@@ -120,9 +125,22 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
               <li>Best Current Practices (<a href="https://tools.ietf.org/html/bcp1">bcp1</a>)</li>
               <li>The Internet Standards Process (<a href="https://tools.ietf.org/html/bcp9">bcp9</a>)</li>
               <li>Tags for Identifying Languages (<a href="https://tools.ietf.org/html/bcp47">bcp47</a>)</li>
-              <li>Randomness Requirements for Security (<a href="https://tools.ietf.org/html/bcp106">bcp106</a>)
               <li>...</li>
             </ul>
+          </section>
+          <section style="text-align: center;">
+            <h3>Übersicht</h3>
+            <div style="width: 100%;">
+              <div style="border: 1px solid #000; border-radius: 50%; background: #71C2F7; height: 450px; width: 450px; position: relative; margin: 0 auto; text-align: center;" class="istd">
+                <p style="margin: 2em 0; font-size: .6em;">Internet Standards</p>
+                <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 225px; width: 225px; position: absolute; top: 25%; left: 25%; z-index: 1; text-align: center;" class="wstd">
+                  <p style="margin: 2.8em 0; font-size: .6em;">Web Standards</p>
+                </div>
+                <div style="border: 1px solid #000; border-radius: 5%; background: #FFF; border-radius: 5%; height: 50px; width: 200px; position: absolute; top: 55%; left: 60%; z-index: 2; text-align: center;" class="bcp">
+                  <p style="margin: .4em; font-size: .6em;">BCP</p>
+                </div>
+              </div>
+            </div>
           </section>
         </section>
 
@@ -135,14 +153,14 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           <section>
             <h3>Normungsgremien</h3> 
             <ul>
-              <li>Internet Engineering Task Force (IETF)</li>
-              <li>Internet Assigned Numbers Authority (IANA)</li>
-              <li>World Wide Web Consortium (W3C)</li>
-              <li>International Organization for Standardization (ISO)</li>
+              <li>Internet Engineering Task Force (IETF)<br><small>Entwickelt und publiziert Internetstandards und Best Current Practices</small></li>
+              <li>World Wide Web Consortium (W3C)<br><small>Entwickelt und publiziert Webstandards</small></li>
+              <li>International Organization for Standardization (ISO)<br><small>Entwickelt und (re)publiziert allgemeine Standards, Internet- und Webstandards.</small></li>
               <li>etc.</li>
             </ul>
           </section>
           <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="ietf-logo.svg">
             <h4>Internet Engineering Task Force (IETF)</h4> 
             <table>
               <tbody>
@@ -166,29 +184,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             </table>
           </section>
           <section>
-            <h4>Internet Assigned Numbers Authority (IANA)</h4> 
-            <table>
-              <tbody>
-                <tr>
-                  <th>Webseite</th>
-                  <td><a href="https://www.iana.org/">https://www.iana.org/</a></td>
-                </tr>
-                <tr>
-                  <th>Betreibt</th>
-                  <td>IP Adressen, DNS Root Zone, etc.</td>
-                </tr>
-                <tr>
-                  <th>Betreiber</th>
-                  <td>Internet Corporation For Assigned Names and Numbers (ICANN)</td>
-                </tr>
-                <tr>
-                  <th>Gegründet:</th>
-                  <td>1988</td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-          <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="w3c-logo.svg">
             <h4>World Wide Web Consortium (W3C)</h4> 
             <table>
               <tbody>
@@ -212,6 +208,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             </table>
           </section>
           <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="iso-logo.svg">
             <h4>International Organization for Standardization (ISO)</h4> 
             <table>
               <tbody>
@@ -237,9 +234,9 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           <section>
             <h4>Gemeinsamkeiten</h4> 
             <ul>
-              <li><strong>Breit aufgestellt </strong><br><small>Regierungsvertreter, Universitäten, Privatunternehmen, Einzelpersonen</small></li>
-              <li><strong>Offene Prozesse</strong><br><small>Größtenteils transparente Prozesse, Beteiligung und Feedback sind möglich</small></li>
-              <li><strong>Freie Nutzung</strong><br><small>Standards sind frei zugänglich, möglichst weite Verbreitung angestrebt</small></li>
+              <li><strong>Gesellschaftlich breit aufgestellt</strong><br><small>Regierungsvertreter, Universitäten, Privatunternehmen, Organisationen, &hellip;</small></li>
+              <li><strong>Offene Prozesse</strong><br><small>(Größtenteils) transparente Prozesse, Beteiligung/Feedback ist möglich und gefordert.</small></li>
+              <li><strong>Freie Nutzung</strong><br><small>Standards sind frei zugänglich, kostenfreie Nutzung, weite Verbreitung ist angestrebt.</small></li>
             </ul>
           </section>
         </section>
@@ -251,28 +248,69 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <p>Vorteile durch die Nutzung von Standards.</p>
           </section>
           <section>
-            <h3></h3>
-            <p></p> 
+            <h3>Grundwortschatz</h3>
+            <p>Standards entsprechen den Sprachen des Internet und des World Wide Web.</p>
           </section>
           <section>
-            <h3></h3>
-            <p>Um die Bedeutung von Webstandards zu erkennen lohnt sich ein Blick in die Vergangenheit des Internet, in eine Zeit vor Webstandards.</p>
+            <h3>Verständigung</h3>
+            <p>Standards erlauben das Senden und Empfangen von Informationen (Interoperabilität).</p>
+            <p>Die gemeinsam gesprochenen Sprachen ermöglichen Kommunikation zwischen den verschiedenen Akteuren.</p>
           </section>
           <section>
-            <h3></h3>
+            <h3>Akteure</h3>
+            <ul>
+              <li><strong>Benutzer</strong><br><small>Konsumenten, Content Provider, &hellip;</small></li>
+              <li><strong>Browser Software</strong><br><small>Firefox, Chrome, Safari, Internet Explorer, &hellip;</small></li>
+              <li><strong>Web Applications</strong><br><small>Suchmaschinen, Online Shops, Soziale Netzwerke, &hellip;</small></li>
+              <li><strong>Content Provider</strong><br><small>Verlagswebseiten, Video-Plattformen, Informationsportale, &hellip;</small></li>
+            </ul>
           </section>
           <section>
-            <h3></h3>
-            <p>Standards haben Einfluss auf die Interoperabilität, die Zugänglichkeit und die Benutzerfreundlichkeit von Webseiten und anderen Web-Produkten.</p>
+            <h4>Beispiel 1</h4>
+            <p>Web Application // Content Provider<br><small>Suchmaschine crawlt Inhalte von Verlagswebseite.</small></p>
+            <ul>
+              <li><strong>Internetstandards</strong><br><small>IP, DNS, HTTP, &hellip;</small></li>
+              <li><strong>Webstandards</strong><br><small>HTML, WCAG, Microdata, CSS, &hellip;</small></li>
+              <li><strong>Best (Current) Practices</strong><br><small>Robots Exclusion Protocol (Robots.txt), Language Codes, &hellip;</small></li>
+            </ul>
+          </section>
+          <section>
+            <h4>Beispiel 2</h4>
+            <p>Browser Software // Content Provider<br><small>Browser zeigt (rendert) Inhalte von Verlagswebseite.</small></p>
+            <ul>
+              <li><strong>Internetstandards</strong><br><small>IP, DNS, HTTP, &hellip;</small></li>
+              <li><strong>Webstandards</strong><br><small>HTML, CSS, Webfonts, SVG, WCAG, Microdata, &hellip;</small></li>
+              <li><strong>Best (Current) Practices</strong><br><small>Language Codes, &hellip;</small></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Wirkungsbereiche</h3>
+            <ul>
+              <li><strong>Interoperabilität</strong><br><small>Funktionalität, Plattformunabhängigkeit, Geräteunabhängigkeit, &hellip;</small></li>
+              <li><strong>Sicherheit</strong><br><small>Verschlüssselung (SSL), Privatsphäre (DNT), &hellip;</small></li>
+              <li><strong>User-Experience</strong><br><small>Informationsfluss, Geschwindigkeit, Interface Design, &hellip;</small></li>
+              <li><strong>Marketing</strong><br><small>Search Engine Optimization (SEO), Search Engine Advertising (SEA), &hellip;</small></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Wichtig</h3>
+            <p>Standards beherrschen ist eine Vorraussetzung für den Erfolg eines jeden Akteurs.</p>
+          </section>
+        </section>
+
+        <section>
+          <section class="topic">
+            <h2>Diskussion</h2>
+            <p>Fragen & Diskussion zur Nutzung von Standards.</p>
           </section>
         </section>
 			</div>
 		</div>
 
-		<script src="../../engines/2017-03-10/lib/js/head.min.js"></script>
-		<script src="../../engines/2017-03-10/js/reveal.js"></script>
+    <script src="../../engines/2017-03-10/lib/js/head.min.js"></script>
+    <script src="../../engines/2017-03-10/js/reveal.js"></script>
 
-		<script>
+    <script>
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
@@ -285,6 +323,6 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 					{ src: '../../engines/2017-03-10/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
-		</script>
-	</body>
+    </script>
+  </body>
 </html>

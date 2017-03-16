@@ -40,3 +40,7 @@ section.has-dark-background .subtitle {
 .has-dark-background a {
   color: #98bdef;
 }
+
+table {
+  margin: 0 !important;
+}
