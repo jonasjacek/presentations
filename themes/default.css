@@ -38,7 +38,11 @@ section.has-dark-background .subtitle {
   }
 
 .has-dark-background a {
-  color: #98bdef;
+  color: #aecaf1;
+}
+.has-dark-background a:hover {
+  color: #aecaf1;
+  text-decoration: underline;
 }
 .reveal section img {
   border: 1px solid #333;
