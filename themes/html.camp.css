@@ -1,0 +1,42 @@
+/* Fonts
+ * ========================================================================== */
+ 
+@font-face {
+  font-family: 'htmlcamp_bold';
+  src: url('fonts/htmlcamp_bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'htmlcamp_regular';
+  src: url('fonts/htmlcamp_regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'htmlcamp_light';
+  src: url('fonts/htmlcamp_light.woff') format('woff');
+}
+@font-face {
+  font-family: 'open-sans_regular';
+  src: url('fonts/open-sans_regular.woff') format('woff');
+  }
+@font-face {
+  font-family: 'open-sans_light';
+  src: url('fonts/open-sans_light.woff') format('woff');
+  }
+@font-face {
+  font-family: 'open-sans_light-italic';
+  src: url('fonts/open-sans_light-italic.woff') format('woff');
+  }
+@font-face {
+  font-family: 'open-sans_condensed-light';
+  src: url('fonts/open-sans_light.woff') format('woff');
+  }
+
+
+/* Envelope
+ * ========================================================================== */
+
+.envelope h1 {
+  font-family: htmlcamp_bold;
+}
+.envelope h1 span {
+  font-family: htmlcamp_light;
+}
