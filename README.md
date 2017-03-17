@@ -8,9 +8,10 @@ Slide contents are licensed under a Creative Commons Attribution-NonCommercial-N
 ## Overview
 Table of slides and presentations contained within this repository.
 
-Date | Event | Location | Language
------------- | ------------- | ------------- | -------------
-2017-05-09 | webXpert Conference | Hamburg, Germany | German
+Date | Event | Location | Topic | Language
+------------ | ------------- | ------------- | ------------- | -------------
+2017-04-XX | HTML Camp | Hamburg, Germany| Introduction to HTML | English
+2017-05-09 | webXpert Conference | Hamburg, Germany | Einführung zu Internet- und Webstandards | German
 
 ## Errors
 
