@@ -34,6 +34,10 @@
 /* Envelope
  * ========================================================================== */
 
+.envelope h1 a,
+.envelope h1 a:hover {
+  color: #FFF;
+}
 .envelope h1 {
   font-family: htmlcamp_bold;
 }
