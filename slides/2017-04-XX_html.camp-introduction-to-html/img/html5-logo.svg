@@ -1,102 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 362.734 512"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.48.5 r10040"
-   width="100%"
-   height="100%"
-   sodipodi:docname="html5-logo.svg">
-  <metadata
-     id="metadata30">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs28" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1344"
-     id="namedview26"
-     showgrid="false"
-     inkscape:zoom="0.4609375"
-     inkscape:cx="106.734"
-     inkscape:cy="255.99999"
-     inkscape:window-x="0"
-     inkscape:window-y="47"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
-  <title
-     id="title4">HTML5 Logo</title>
-  <polygon
-     points="74.633,100.62 437.367,100.62 404.321,470.819 255.778,512 107.644,470.877 "
-     id="polygon6"
-     style="fill:#e44d26"
-     transform="translate(-74.633004,0)" />
-  <polygon
-     points="404.27,130.894 256,130.894 256,480.523 376.03,447.246 "
-     id="polygon8"
-     style="fill:#f16529"
-     transform="translate(-74.633004,0)" />
-  <polygon
-     points="142.132,176.305 143.219,188.488 154.38,313.627 256,313.627 256,268.217 195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 "
-     id="polygon10"
-     style="fill:#ebebeb"
-     transform="translate(-74.633004,0)" />
-  <polygon
-     points="162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 "
-     id="polygon12"
-     style="fill:#ebebeb"
-     transform="translate(-74.633004,0)" />
-  <path
-     d="m 33.748996,0 h 23.077 v 22.8 h 21.11 V 0 H 101.014 V 69.044 H 77.936996 v -23.12 h -21.11 v 23.12 h -23.077 V 0 z"
-     id="path14"
-     inkscape:connector-curvature="0" />
-  <path
-     d="M 131.361,22.896 H 111.045 V 0 h 63.72 V 22.896 H 154.44 V 69.044 H 131.362 V 22.896 z"
-     id="path16"
-     inkscape:connector-curvature="0" />
-  <path
-     d="m 184.878,0 h 24.063 L 223.743,24.26 238.53,0 h 24.072 V 69.044 H 239.62 V 34.822 l -15.877,24.549 h -0.397 L 207.458,34.822 v 34.222 h -22.58 V 0 z"
-     id="path18"
-     inkscape:connector-curvature="0" />
-  <path
-     d="m 274.087,0 h 23.084 v 46.222 h 32.453 V 69.044 H 274.087 V 0 z"
-     id="path20"
-     inkscape:connector-curvature="0" />
-  <polygon
-     points="348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 "
-     id="polygon22"
-     style="fill:#ffffff"
-     transform="translate(-74.633004,0)" />
-  <polygon
-     points="365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 "
-     id="polygon24"
-     style="fill:#ffffff"
-     transform="translate(-74.633004,0)" />
+<svg width="298px" height="420px" viewBox="0 0 298 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M27.383,386.266 L0.313,82.646 L297.763,82.646 L270.665,386.217 L148.856,419.986 L27.383,386.266 Z M27.383,386.266" id="Shape" fill="#E44F26"></path>
+            <path d="M149.038,394.175 L247.465,366.887 L270.623,107.471 L149.038,107.471 L149.038,394.175 Z M149.038,394.175" id="Shape" fill="#F1662A"></path>
+            <path d="M149.038,220.08 L99.763,220.08 L96.359,181.948 L149.038,181.948 L149.038,144.709 L148.909,144.709 L55.663,144.709 L56.555,154.7 L65.707,257.316 L149.038,257.316 L149.038,220.08 Z M149.038,220.08" id="Shape" fill="#EBEBEB"></path>
+            <path d="M149.038,316.788 L148.875,316.834 L107.403,305.635 L104.751,275.937 L84.6,275.937 L67.371,275.937 L72.588,334.404 L148.866,355.58 L149.038,355.532 L149.038,316.788 Z M149.038,316.788" id="Shape" fill="#EBEBEB"></path>
+            <path d="M27.988,0.135 L46.912,0.135 L46.912,18.831 L64.223,18.831 L64.223,0.135 L83.148,0.135 L83.148,56.753 L64.224,56.753 L64.224,37.795 L46.914,37.795 L46.914,56.753 L27.988,56.753 L27.988,0.135 L27.988,0.135 Z M27.988,0.135" id="Shape" fill="#010101"></path>
+            <path d="M108.032,18.91 L91.372,18.91 L91.372,0.135 L143.624,0.135 L143.624,18.91 L126.957,18.91 L126.957,56.753 L108.033,56.753 L108.033,18.91 L108.032,18.91 L108.032,18.91 Z M108.032,18.91" id="Shape" fill="#010101"></path>
+            <path d="M151.917,0.135 L171.65,0.135 L183.787,20.029 L195.914,0.135 L215.653,0.135 L215.653,56.753 L196.807,56.753 L196.807,28.69 L183.786,48.82 L183.461,48.82 L170.433,28.69 L170.433,56.753 L151.916,56.753 L151.916,0.135 L151.917,0.135 Z M151.917,0.135" id="Shape" fill="#010101"></path>
+            <path d="M225.071,0.135 L244,0.135 L244,38.038 L270.612,38.038 L270.612,56.752 L225.07,56.752 L225.07,0.135 L225.071,0.135 Z M225.071,0.135" id="Shape" fill="#010101"></path>
+            <path d="M148.909,220.08 L148.909,257.316 L194.763,257.316 L190.441,305.61 L148.909,316.82 L148.909,355.562 L225.249,334.404 L225.808,328.114 L234.559,230.079 L235.467,220.08 L225.433,220.08 L148.909,220.08 Z M148.909,220.08" id="Shape" fill="#FFFFFF"></path>
+            <path d="M148.909,144.709 L148.909,167.837 L148.909,181.856 L148.909,181.948 L238.736,181.948 L238.856,181.948 L239.603,173.578 L241.299,154.7 L242.19,144.709 L148.909,144.709 Z M148.909,144.709" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
 </svg>
