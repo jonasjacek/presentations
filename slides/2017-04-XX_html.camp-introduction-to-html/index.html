@@ -16,7 +16,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 		<link rel="stylesheet" href="../../themes/html.camp.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../engines/2017-03-10/lib/css/zenburn.css">
+		<link rel="stylesheet" href="../../highlight/styles/github.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -151,28 +151,31 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <h3>HTML5</h3>
             <p>Umbrella term for:</p>
             <ul>
-              <li><strong>HyperText Markup Language</strong> version 5 (HTML5)<br><small>Holds and organizes content into a logical structure</small></li>
+              <li><strong>Hypertext Markup Language</strong> version 5 (HTML5)<br><small>Holds and organizes content into a logical structure</small></li>
               <li><strong>Cascading Style Sheets</strong> version 3 (CSS3)<br><small>Takes care of presentation and style of HTML documents.</small></li>
               <li><strong>JavaScript</strong><br><small>Allows actions and turns documents into potential Web applications.</small></li>
             </ul>
           </section>
           <section>
-            <h3>HyperText</h3>
-            <p>Add contents &hellip;</p>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
+            <h3>Markup</h3>
+            <p>Annotating a document with extra information, which is (e.g. in the Browser) omitted from users.</p>
+            <p>The HTML specification prescribes how to markup semantics (meaning).</p>
           </section>
           <section>
-            <h3>Add heading</h3>
-            <p>Add contents &hellip;</p>
-            <ul>
-              <li></li>
-            </ul>
+            <p>A basic HTML document looks like this:</p>
+            <pre><code data-trim>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Sample page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Sample page&lt;/h1&gt;
+    &lt;p&gt;This is a &lt;a href=&quot;demo.html&quot;&gt;simple&lt;/a&gt; sample.&lt;/p&gt;
+    &lt;!-- this is a comment --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
           </section>
         </section>
         
