@@ -88,3 +88,7 @@ section.has-dark-background .subtitle {
   margin: 0 auto;
   width: 100%;
 }
+.reveal p code,
+.reveal li code {
+  font-size: 85%;
+}
