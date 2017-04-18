@@ -83,6 +83,13 @@ section.has-dark-background .subtitle {
 /* PRE & CODE
  * ========================================================================== */
 
+.reveal code, 
+.reveal pre, 
+.reveal .mono {
+  font-family: mono;
+  font-size: .8em;
+  color: #333;
+}
 .reveal pre {
   box-shadow: none;
   margin: 0 auto;

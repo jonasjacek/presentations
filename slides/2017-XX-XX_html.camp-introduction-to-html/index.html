@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!-- Slide contents are licensed by Jonas Jared Jacek (http://jonas.me/) with a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You can find the full license at https://raw.githubusercontent.com/jonasjacek/presentations/master/LICENSE. 
-The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/engines/2017-03-10/LICENSE. -->
+The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/presentation-framework/2017-03-10/LICENSE. -->
 
 <html lang="en">
 	<head>
@@ -10,20 +10,18 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<title>Fast Track to HTML & CSS</title>
 		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="../../engines/2017-03-10/css/reveal.css">
-		<link rel="stylesheet" href="../../engines/2017-03-10/css/theme/white.css">
+		<link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/reveal.css">
+		<link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/theme/white.css">
+		<link rel="stylesheet" href="../../syntax-highlighting/prism.css">
 		<link rel="stylesheet" href="../../themes/default.css">
 		<link rel="stylesheet" href="../../themes/html.camp.css">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../highlight/styles/github-gist.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '../../engines/2017-03-10/css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../presentation-framework/2017-03-10/css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -106,9 +104,9 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           <section>
             <h4>Text Editors</h4>
             <ul>
-              <li><strong>Windows</strong><br></small><a href="https://notepad-plus-plus.org/">Notepad++</a>, <a href="http://liquidninja.com/metapad/">Metapad</a>, <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="http://www.vim.org/">Vim</a>, &hellip;</small></li>
-          <li><strong>Mac OS</strong><br></small><a href="https://developer.apple.com/xcode/">Xcode</a>, <a href="http://macromates.com/">TextMate</a>, <a href="http://brackets.io/">Brackets</a>, <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="http://www.vim.org/">Vim</a>, &hellip;</small></li>
-      <li><strong>Linux</strong><br></small><a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>, <a href="https://atom.io/">Atom</a>, <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="https://www.gnu.org/software/emacs/">Emacs</a>, <a href="http://www.vim.org/">Vim</a>, &hellip;</small></li>
+              <li><strong>Windows</strong><br><small><a href="https://notepad-plus-plus.org/">Notepad++</a>, <a href="http://liquidninja.com/metapad/">Metapad</a>, <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="http://www.vim.org/">Vim</a>, &hellip;</small></li>
+          <li><strong>Mac OS</strong><br><small><a href="https://developer.apple.com/xcode/">Xcode</a>, <a href="http://macromates.com/">TextMate</a>, <a href="http://brackets.io/">Brackets</a>, <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="http://www.vim.org/">Vim</a>, &hellip;</small></li>
+      <li><strong>Linux</strong><br><small><a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>, <a href="https://atom.io/">Atom</a>, <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="https://www.gnu.org/software/emacs/">Emacs</a>, <a href="http://www.vim.org/">Vim</a>, &hellip;</small></li>
             </ul>
           </section>
           <section>
@@ -162,8 +160,9 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <p>The <a href="https://www.w3.org/TR/html/">HTML specification</a> prescribes how to markup semantics (meaning).</p>
           </section>
           <section>
-            <p>A basic HTML document looks like this:</p>
-            <pre><code data-trim>
+            <h4>Basic HTML Document</h4>
+            <p>A tree of elements and text:</p>
+            <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -171,83 +170,29 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
   &lt;/head&gt;
   &lt;body&gt;
     &lt;h1&gt;Sample page&lt;/h1&gt;
-    &lt;p&gt;This is a &lt;a href=&quot;examples/demo.html&quot;&gt;demonstration&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;This is a &lt;a href=&quot;examples/demo.html&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
     &lt;!-- this is a comment --&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-            </code></pre>
+&lt;/html&gt;</pre>
           </section>
           <section>
             <h4>Doctype</h4>
-            <p>A document type declaration (DTD), or DOCTYPE, is the formal definition of a particular version of HTML. It belongs in the very first line of an HTML document.</p>
-            <pre><code data-trim>
-&lt;!DOCTYPE html&gt;
-            </code></pre>
-          </section>
-          <section>
-            <p>A basic HTML document looks like this:</p>
-            <pre><code data-trim>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Sample page&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Sample page&lt;/h1&gt;
-    &lt;p&gt;This is a &lt;a href=&quot;examples/demo.html&quot;&gt;demonstration&lt;/a&gt;.&lt;/p&gt;
-    &lt;!-- this is a comment --&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-            </code></pre>
+            <p>The document type declaration (DTD) is the formal definition of a particular HTML version in the very first line of an HTML document.</p>
+            <code class="language-markup">&lt;!DOCTYPE html&gt;</code>
           </section>
           <section>
             <h4>Root Element</h4>
-            <p>The root element is usually the <code>&lt;html&gt;</code> element, it can be found at the root of HTML documents.</p>
-            <pre><code data-trim>
-&lt;html&gt;&hellip;&lt;/html&gt;
-            </code></pre>
-          </section>
-          <section>
-            <p>A basic HTML document looks like this:</p>
-            <pre><code data-trim>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Sample page&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Sample page&lt;/h1&gt;
-    &lt;p&gt;This is a &lt;a href=&quot;examples/demo.html&quot;&gt;demonstration&lt;/a&gt;.&lt;/p&gt;
-    &lt;!-- this is a comment --&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-            </code></pre>
+            <p>The root element is usually the <code class="language-html">&lt;html&gt;</code> element, it can be found at the root of HTML documents.</p>
+            <code class="language-html">&lt;html&gt;&hellip;&lt;/html&gt;</code>
           </section>
           <section>
             <h4>Head Element</h4>
-            <p>The <code>&lt;head&gt;</code> element is the first element inside the <code>&lt;html&gt;</code> element. It is a container for metadata (data about data).</p>
-            <pre><code data-trim>
-&lt;head&gt;&hellip;&lt;/head&gt;
-            </code></pre>
+            <p>The <code class="language-markup">&lt;head&gt;</code> element, a container for metadata (data about data), is the first element inside the <code class="language-markup">&lt;html&gt;</code> element.</p>
+            <code class="language-html">&lt;head&gt;&hellip;&lt;/head&gt;</code>
           </section>
           <section>
-            <p>A basic HTML document looks like this:</p>
-            <pre><code data-trim>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Sample page&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Sample page&lt;/h1&gt;
-    &lt;p&gt;This is a &lt;a href=&quot;examples/demo.html&quot;&gt;demonstration&lt;/a&gt;.&lt;/p&gt;
-    &lt;!-- this is a comment --&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-            </code></pre>
-          </section>
-          <section>
-            <h4>HTML documents consist of</h4>
+            <h4>Conclusion</h4>
+            <p>HTML documents consist of &hellip;</p>
             <ul>
               <li>a tree of elements and text</li>
               <li>elements are denoted by start and end tags*.</li>
@@ -315,9 +260,9 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 			  </section>
 			</div>
 		</div>
-		
-		<script src="../../engines/2017-03-10/lib/js/head.min.js"></script>
-		<script src="../../engines/2017-03-10/js/reveal.js"></script>
+		<script src="../../syntax-highlighting/prism.js"></script>
+		<script src="../../presentation-framework/2017-03-10/lib/js/head.min.js"></script>
+		<script src="../../presentation-framework/2017-03-10/js/reveal.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -326,10 +271,10 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: '../../engines/2017-03-10/plugin/markdown/marked.js' },
-					{ src: '../../engines/2017-03-10/plugin/markdown/markdown.js' },
-					{ src: '../../engines/2017-03-10/plugin/notes/notes.js', async: true },
-					{ src: '../../engines/2017-03-10/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/marked.js' },
+					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/markdown.js' },
+					{ src: '../../presentation-framework/2017-03-10/plugin/notes/notes.js', async: true },
+					{ src: '../../presentation-framework/2017-03-10/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
