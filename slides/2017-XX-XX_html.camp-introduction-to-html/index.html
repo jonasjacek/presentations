@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!-- Slide contents are licensed by Jonas Jared Jacek (http://jonas.me/) with a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You can find the full license at https://raw.githubusercontent.com/jonasjacek/presentations/master/LICENSE. 
-The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/presentation-framework/2017-03-10/LICENSE. -->
+The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/presentation-framework/YYYY-MM-DD/LICENSE. -->
 
 <html lang="en">
 	<head>
@@ -12,7 +12,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/reveal.css">
 		<link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/theme/white.css">
-		<link rel="stylesheet" href="../../syntax-highlighting/prism.css">
+		<link rel="stylesheet" href="../../presentation-framework/2017-03-10/lib/css/github-gist.css">
 		<link rel="stylesheet" href="../../themes/default.css">
 		<link rel="stylesheet" href="../../themes/html.camp.css">
 
@@ -162,7 +162,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           <section>
             <h4>Basic HTML Document</h4>
             <p>A tree of elements and text:</p>
-            <pre>
+            <pre><code>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -173,22 +173,27 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
     &lt;p&gt;This is a &lt;a href=&quot;examples/demo.html&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
     &lt;!-- this is a comment --&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
           </section>
           <section>
             <h4>Doctype</h4>
             <p>The document type declaration (DTD) is the formal definition of a particular HTML version in the very first line of an HTML document.</p>
-            <code class="language-markup">&lt;!DOCTYPE html&gt;</code>
+            <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
           </section>
           <section>
             <h4>Root Element</h4>
-            <p>The root element is usually the <code class="language-html">&lt;html&gt;</code> element, it can be found at the root of HTML documents.</p>
-            <code class="language-html">&lt;html&gt;&hellip;&lt;/html&gt;</code>
+            <p>The root element is usually the <code>&lt;html&gt;</code> element, it can be found at the root of HTML documents.</p>
+            <pre><code>&lt;html&gt;&hellip;&lt;/html&gt;</code></pre>
           </section>
           <section>
             <h4>Head Element</h4>
-            <p>The <code class="language-markup">&lt;head&gt;</code> element, a container for metadata (data about data), is the first element inside the <code class="language-markup">&lt;html&gt;</code> element.</p>
-            <code class="language-html">&lt;head&gt;&hellip;&lt;/head&gt;</code>
+            <p>The <code>&lt;head&gt;</code> element, a container for metadata (data about data), is the first element inside the <code>&lt;html&gt;</code> element.</p>
+            <pre><code>&lt;head&gt;&hellip;&lt;/head&gt;</code></pre>
+          </section>
+          <section>
+          
+          <pre data-src="examples/sample.html"></pre>
+          
           </section>
           <section>
             <h4>Conclusion</h4>
@@ -260,7 +265,6 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 			  </section>
 			</div>
 		</div>
-		<script src="../../syntax-highlighting/prism.js"></script>
 		<script src="../../presentation-framework/2017-03-10/lib/js/head.min.js"></script>
 		<script src="../../presentation-framework/2017-03-10/js/reveal.js"></script>
 
@@ -269,14 +273,14 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
 			Reveal.initialize({
 				history: true,
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/marked.js' },
-					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/markdown.js' },
-					{ src: '../../presentation-framework/2017-03-10/plugin/notes/notes.js', async: true },
-					{ src: '../../presentation-framework/2017-03-10/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
+			  // More info https://github.com/hakimel/reveal.js#dependencies
+			  dependencies: [
+				  { src: '../../presentation-framework/2017-03-10/plugin/markdown/marked.js' },
+				  { src: '../../presentation-framework/2017-03-10/plugin/markdown/markdown.js' },
+				  { src: '../../presentation-framework/2017-03-10/plugin/notes/notes.js', async: true },
+				  { src: '../../presentation-framework/2017-03-10/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			  ]
+		  });
 		</script>
 	</body>
 </html>
