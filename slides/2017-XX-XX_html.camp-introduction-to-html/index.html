@@ -160,17 +160,14 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <p>The <a href="https://www.w3.org/TR/html/">HTML specification</a> prescribes how to markup semantics (meaning).</p>
           </section>
           <section>
-            <h4>Basic HTML Document</h4>
-            <p>A tree of elements and text:</p>
-            <pre><code>
-&lt;!DOCTYPE html&gt;
+            <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;Sample page&lt;/title&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;h1&gt;Sample page&lt;/h1&gt;
-    &lt;p&gt;This is a &lt;a href=&quot;examples/demo.html&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;This is a &lt;a href=&quot;demo.html&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
     &lt;!-- this is a comment --&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
@@ -178,35 +175,38 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           <section>
             <h4>Doctype</h4>
             <p>The document type declaration (DTD) is the formal definition of a particular HTML version in the very first line of an HTML document.</p>
-            <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+            <pre><code class="language-html">&lt;!DOCTYPE html&gt;</code></pre>
           </section>
           <section>
             <h4>Root Element</h4>
-            <p>The root element is usually the <code>&lt;html&gt;</code> element, it can be found at the root of HTML documents.</p>
-            <pre><code>&lt;html&gt;&hellip;&lt;/html&gt;</code></pre>
+            <p>The root element is usually the <code>&lt;html&gt;</code> element, it can be found at the root (of the tree of elements) of HTML documents.</p>
+            <pre><code class="language-html">&lt;html&gt;&hellip;&lt;/html&gt;</code></pre>
           </section>
           <section>
             <h4>Head Element</h4>
             <p>The <code>&lt;head&gt;</code> element, a container for metadata (data about data), is the first element inside the <code>&lt;html&gt;</code> element.</p>
-            <pre><code>&lt;head&gt;&hellip;&lt;/head&gt;</code></pre>
+            <pre><code class="language-html">&lt;head&gt;&hellip;&lt;/head&gt;</code></pre>
           </section>
           <section>
+            <h4>Title Element</h4>
+            <p>The <code>&lt;title&gt;</code> element represents the title or name of an HTML document and should identify its content in a fairly wide context and about 56 characters.</p>
+            <pre><code class="language-html">&lt;title&gt;&hellip;&lt;/title&gt;</code></pre>
+          </section>
           
-          <pre data-src="examples/sample.html"></pre>
-          
+          <section>
+            <h4>Tags & Elements</h4>
+            <p>Each<small><sup>*</sup></small> element is denoted in the source by a start tag <code>&lt;&gt;</code> and an end tag <code>&lt;/&gt;</code>.</p>
+            <pre><code>&lt;element&gt;&hellip;&lt;/element&gt;</code></pre>
           </section>
           <section>
-            <h4>Conclusion</h4>
-            <p>HTML documents consist of &hellip;</p>
-            <ul>
-              <li>a tree of elements and text</li>
-              <li>elements are denoted by start and end tags*.</li>
-              <li>Tags have to be nested such that elements are all completely within each other, without overlapping</li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-            <small>* Some start and end tags can in certain cases be omitted and are implied by other tags.</small>
+            <h4>Nesting</h4>
+            <p>Tags have to be nested such that elements are all completely within each other, without overlapping.</p>
+            <pre><code>&lt;p&gt;This is &lt;em&gt;very &lt;strong&gt;wrong&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;</code></pre>
+            <pre><code>&lt;p&gt;This &lt;em&gt;is &lt;strong&gt;correct&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;</code></pre>
+          </section>
+          <section>
+            <h4></h4>
+            <p></p>
           </section>
         </section>
         
