@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<!-- Slide contents are licensed by Jonas Jared Jacek (http://jonas.me/) with a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You can find the full license at https://raw.githubusercontent.com/jonasjacek/presentations/master/LICENSE. 
+The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/presentation-framework/YYYY-MM-DD/LICENSE. -->
+
+<html lang="de">
+  <head>
+  	<meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow,noarchive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Internet- und Webstandards für Accessibility</title>
+    <link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/reveal.css">
+    <link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/theme/white.css">
+    <link rel="stylesheet" href="../../themes/default.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../presentation-framework/2017-03-10/css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			  
+			  <!-- ENVELOPE: FRONT -->
+			  <section class="envelope" data-background="#005C8E">
+			    <h1>Standards</h1>
+			    <p class="subtitle">Internet- und Webstandards für Accessibility</p>
+			    <small>Author: <a href="http://jonas.me/">Jonas Jared Jacek</a> &middot; License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></small>
+			  </section>
+			  
+				<!-- TOC -->
+				<section class="toc" data-background="#f4f2f0">
+				  <h2>Themen</h2>
+				  <ul>
+            <li><strong>Was sind Standards?</strong><br><small>Überblick über Standards im Internet. Definitionen, Beispiele und Links.</small></li>
+            <li><strong>Wer macht Standards?</strong><br><small>Informationen zu Normungsgremien, Strukturen und Links.</small></li>
+            <li><strong>Accessibility Standards?</strong><br><small>Informationen und Tipps zu den Web Content Accessibility Guidelines (WCAG).</small></li>
+            <li><strong>Diskussion</strong><br><small>Beantwortung von Fragen. Diskussion zur Nutzung von Standards.</small></li>
+				  </ul>
+				</section>
+
+        <!-- WAS SIND STANDARDS? -->
+        <section>
+          <section class="topic">
+            <h2>Was sind Standards?</h2>
+            <p>Ein Überblick über Standards im Internet.</p>
+          </section>
+          <section>
+            <h3>Unterscheidungen</h3>
+            <ul>
+              <li>Internetstandards</li>
+              <li>Webstandards</li>
+              <li>Best (Current) Practices</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Internetstandards</h3>
+            <p>Technische Spezifikationen, die ...</p>
+            <ul>
+              <li>Funktionsweisen des Internet beschreiben</li>
+              <li>einen sehr hohen Reifegrad haben</li>
+              <li>von einer breiten Öffentlichkeit unterstützt werden.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Beispiele für Internetstandards</h4>
+            <ul>
+              <li>Internet Protocol (<a href="https://tools.ietf.org/html/rfc791">IP</a>)</li>
+              <li>Domain Name System (<a href="https://tools.ietf.org/html/rfc1035">DNS</a>)</li>
+              <li>Hypertext Transfer Protocol (<a href="https://tools.ietf.org/html/rfc2616">HTTP</a>)</li>
+              <li>...</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Webstandards</h3>
+            <p>Technische Spezifikationen, die ...</p>
+            <ul>
+              <li>Funktionsweisen des World Wide Web beschreiben</li>
+              <li>einen sehr hohen Reifegrad haben</li>
+              <li>von einer breiten Öffentlichkeit unterstützt werden.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Beispiele für Webstandards</h4>
+            <ul>
+              <li>Hypertext Markup Language (<a href="http://www.w3.org/TR/html/">HTML</a>)</li>
+              <li>Cascading Syle Sheets (<a href="https://www.w3.org/TR/CSS/">CSS</a>)</li>
+              <li>Web Open Font Format (<a href="https://www.w3.org/TR/WOFF2/">WOFF</a>)</li>
+              <li>...</li>
+            </ul>
+          </section>
+          <section style="text-align: center;">
+            <h3>Übersicht</h3>
+            <div style="width: 100%;">
+              <div style="border: 1px solid #000; border-radius: 50%; background: #71C2F7; height: 450px; width: 450px; position: relative; margin: 0 auto; text-align: center;" class="istd">
+                <p style="margin: 2em 0; font-size: .6em;">Internet Standards</p>
+                <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 225px; width: 225px; position: absolute; top: 25%; left: 25%; z-index: 1; text-align: center;" class="wstd">
+                  <p style="margin: 2.8em 0; font-size: .6em;">Web Standards</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h3>Best (Current) Practices</h3>
+            <p>Sind (nicht)technische Spezifikationen, die ...</p>
+            <ul>
+              <li>flexibler sind als Standards</li>
+              <li>Diskussionen anregen und ermöglichen sollen</li>
+              <li>keine Standards werden können.</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Beispiele für Best (Current) Practices</h4>
+            <ul>
+              <li>Best Current Practices (<a href="https://tools.ietf.org/html/bcp1">bcp1</a>)</li>
+              <li>The Internet Standards Process (<a href="https://tools.ietf.org/html/bcp9">bcp9</a>)</li>
+              <li>Tags for Identifying Languages (<a href="https://tools.ietf.org/html/bcp47">bcp47</a>)</li>
+              <li>...</li>
+            </ul>
+          </section>
+          <section style="text-align: center;">
+            <h3>Übersicht</h3>
+            <div style="width: 100%;">
+              <div style="border: 1px solid #000; border-radius: 50%; background: #71C2F7; height: 450px; width: 450px; position: relative; margin: 0 auto; text-align: center;" class="istd">
+                <p style="margin: 2em 0; font-size: .6em;">Internet Standards</p>
+                <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 225px; width: 225px; position: absolute; top: 25%; left: 25%; z-index: 1; text-align: center;" class="wstd">
+                  <p style="margin: 2.8em 0; font-size: .6em;">Web Standards</p>
+                </div>
+                <div style="border: 1px solid #000; border-radius: 5%; background: #FFF; border-radius: 5%; height: 50px; width: 200px; position: absolute; top: 55%; left: 60%; z-index: 2; text-align: center;" class="bcp">
+                  <p style="margin: .4em; font-size: .6em;">BCP</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- WER MACHT STANDARDS? -->
+        <section>
+          <section class="topic">
+            <h2>Wer Macht Standards?</h2>
+            <p>Informationen zu Normungsgremien im Internet.</p>
+          </section>
+          <section>
+            <h3>Normungsgremien</h3> 
+            <ul>
+              <li>Internet Engineering Task Force (IETF)<br><small>Entwickelt und publiziert Internetstandards und Best Current Practices.</small></li>
+              <li>World Wide Web Consortium (W3C)<br><small>Entwickelt und publiziert Webstandards.</small></li>
+              <li>International Organization for Standardization (ISO)<br><small>Entwickelt und (re)publiziert allgemeine Standards, Internet- und Webstandards.</small></li>
+              <li>etc.</li>
+            </ul>
+          </section>
+          <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="img/ietf-logo.svg" alt="IETF Logo">
+            <h4 style="margin: 0 0 1.5em;">Internet Engineering Task Force (IETF)</h4> 
+            <table>
+              <tbody>
+                <tr>
+                  <th>Webseite</th>
+                  <td><a href="https://ietf.org/">https://ietf.org/</a></td>
+                </tr>
+                <tr>
+                  <th>Standards</th>
+                  <td>TCP, IP, HTTP, DNS, etc.</td>
+                </tr>
+                <tr>
+                  <th>Mitglieder</th>
+                  <td>80.000+ Personen</td>
+                </tr>
+            </table>
+          </section>
+          <section>
+            <h5>Mitglieder (Beispiel)</h5>
+            <ul>
+              <li>Jari Arkko, <i>Ericsson</i></li>
+              <li>Ben Campbell, <i>Oracle</i></li>
+              <li>Benoit Claise, <i>Cisco</i></li>
+              <li>Deborah Brungard, <i>AT&T</i></li>
+              <li>Stephen Farrell, <i>Trinity College Dublin</i></li>
+              <li>Kathleen Moriarty, <i>Dell EMC</i></li>
+              <li>Mirja Kühlewind, <i>ETH Zurich</i></li>
+              <li>&hellip;</li>
+            </ul>
+          </section>
+          <section>
+            <h5>IETF - Working Group</h5>
+            <img src="img/ietf-wg.jpg" alt="IETF Working Group"></a>
+          </section>
+          <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="img/w3c-logo.svg" alt="W3C Logo">
+            <h4 style="margin: 0 0 1.5em;">World Wide Web Consortium (W3C)</h4> 
+            <table>
+              <tbody>
+                <tr>
+                  <th>Webseite</th>
+                  <td><a href="https://www.w3.org/">https://www.w3.org/</a></td>
+                </tr>
+                <tr>
+                  <th>Standards</th>
+                  <td>HTML, XML, CSS, SVG, WCAG, etc.</td>
+                </tr>
+                <tr>
+                  <th>Mitglieder</th>
+                  <td>451 Organisationen</td>
+                </tr>
+            </table>
+          </section>
+          <section>
+            <h5>Mitglieder (Beispiel)</h5>
+            <ul>
+              <li>Arron Eicholz, </i>Microsoft</li>
+              <li>Alex Danilo, </i>Google</li>
+              <li>Edward O'Connor, </i>Apple Inc.</li>
+              <li>Jonathan Watt, </i>Mozilla Corporation</li>
+              <li>Erik Dahlström, </i>Opera Software</li>
+              <li>Anthony Grasso, </i>Canon Inc.</li>
+              <li>Steve Faulkner, </i>The Paciello Group</li>
+              <li>&hellip;</li>
+            </ul>
+          </section>
+          <section>
+            <h5>W3C - Multilingual Web Workshop</h5>
+            <img src="img/w3c-mlw.jpg" alt="W3C Multilingual Weg Workshop"></a>
+          </section>
+          <section>
+            <img style="border:0; box-shadow: none; float: left; margin: 0 1em .4em 0;" src="img/iso-logo.svg" alt="ISO Logo">
+            <h4 style="margin: 0 0 1.5em;">International Organization for Standardization (ISO)</h4> 
+            <table>
+              <tbody>
+                <tr>
+                  <th>Webseite</th>
+                  <td><a href="https://www.iso.org/">https://www.iso.org/</a></td>
+                </tr>
+                <tr>
+                  <th>Standards</th>
+                  <td>WCAG, MathML, ISO 639, ISO 3166, etc.</td>
+                </tr>
+                <tr>
+                  <th>Mitglieder</th>
+                  <td>162 Länder</td>
+                </tr>
+            </table>
+          </section>
+          <section>
+            <h4>Gemeinsamkeiten</h4> 
+            <ul>
+              <li><strong>Gesellschaftlich breit aufgestellt</strong><br><small>Regierungsvertreter, Akademiker (R&D), Privatunternehmen, Organisationen, &hellip;</small></li>
+              <li><strong>Offene Prozesse</strong><br><small>(Größtenteils) transparente Prozesse, Beteiligung/Feedback ist möglich und gefordert.</small></li>
+              <li><strong>Freie Nutzung</strong><br><small>Standards sind frei zugänglich, kostenfreie Nutzung, weite Verbreitung ist angestrebt.</small></li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- VORTEILE DURCH NUTZUNG VON STANDARDS? -->
+        <section>
+          <section class="topic">
+            <h2>Accessibility Standards?</h2>
+            <p>Die Web Content Accessibility Guidelines (WCAG).</p>
+          </section>
+          <section>
+            <h3>Grundwortschatz</h3>
+            <p>Standards entsprechen den Sprachen des Internet und des World Wide Web. Sie harmonisieren das Senden und Empfangen von Informationen.</p>
+          </section>
+          <section>
+            <h3>Mitsprache</h3>
+            <p>Wenn Sie mitsprechen wollen, müssen Sie Standards beherrschen.</p>
+          </section>
+          <section>
+            <h3>Verständigung</h3>
+            <p>Erst die gemeinsam gesprochenen Sprachen ermöglichen Kommunikation zwischen den verschiedenen Akteuren.</p>
+          </section>
+          <section>
+            <h4>Akteure sind zum Beispiel &hellip;</h4>
+            <ul>
+              <li><strong>Benutzer</strong><br><small>Konsumenten, Content Provider, &hellip;</small></li>
+              <li><strong>Browser Software</strong><br><small>Firefox (Gecko), Chrome (Webkit), Internet Explorer (Trident), Edge (EdgeHTML), &hellip;</small></li>
+              <li><strong>Web Applications</strong><br><small>Suchmaschinen, Online Shops, Soziale Netzwerke, &hellip;</small></li>
+              <li><strong>Content Provider</strong><br><small>Verlagswebseiten, Video-Plattformen, Informationsportale, &hellip;</small></li>
+            </ul>
+          </section>
+          <section>
+            <h4>Beispiel</h4>
+            <p>Web Application // Content Provider<br><small>Suchmaschine crawlt Inhalte von Verlagswebseite.</small></p>
+            <ul>
+              <li><strong>Internetstandards</strong><br><small>IP, DNS, HTTP, &hellip;</small></li>
+              <li><strong>Webstandards</strong><br><small>HTML, WCAG, Microdata, CSS, &hellip;</small></li>
+              <li><strong>Best (Current) Practices</strong><br><small>Robots Exclusion Protocol (Robots.txt), Language Codes, &hellip;</small></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Wirkungsbereiche</h3>
+            <ul>
+              <li><strong>Interoperabilität</strong><br><small>Funktionalität, Plattformunabhängigkeit, Geräteunabhängigkeit, &hellip;</small></li>
+              <li><strong>Sicherheit</strong><br><small>Verschlüssselung (SSL), Privatsphäre (DNT), &hellip;</small></li>
+              <li><strong>User-Experience</strong><br><small>Informationsfluss, Geschwindigkeit, Interface Design, &hellip;</small></li>
+              <li><strong>Marketing</strong><br><small>Search Engine Optimization (SEO), Search Engine Advertising (SEA), &hellip;</small></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Wichtig</h3>
+            <p>Standards zu beherrschen ist eine Vorraussetzung für den Erfolg eines jeden Akteurs.</p>
+          </section>
+
+          <!-- CONFERENCE-SPECIFIC -->
+          <section>
+            <h2 style="text-align: center;">Worauf sollten Sie achten?</h2>
+          </section>
+          <section>
+            <h3>Empfehlung 1</h3>
+            <p>Sie sollten die Standards kennen, die für Ihr Produkt/Ihren Markt wichtig sind.</p>
+            <ul>
+              <li><a href="https://www.rfc-editor.org/standards">Liste mit Internetstandards</a></li>
+              <li><a href="https://www.w3.org/TR/">Liste mit Webstandards</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Empfehlung 2</h3>
+            <p>Sie sollten sich regelmäßig über Standards, die für Ihr Produkt/Ihren Markt wichtig sind, informieren.</p>
+            <small>Dem Markt vorraus sein: Gucken Sie, welche Standards neu entstehen (RFC's).</small>
+          </section>
+          <section>
+            <h3>Empfehlung 3</h3>
+            <p>(Externe) Mitarbeiter sollten die Standards, die für Ihr Produkt/Ihren Markt wichtig sind, kennen und beherrschen.</p>
+            <small>Zu oft wird veraltetes und/oder falsches Wissen angewendet.</small>
+          </section>
+          <section>
+            <h3>Empfehlung 4</h3>
+            <p>Fordern Sie die (fehlerfreie) Nutzung von konkreten Standards wenn Sie Leistungen kaufen (z.B. Hosting, HTML-Templates, Landingpages, &hellip;)</p>
+            <small>Überprüfbarkeit und Bewertung der Qualität: Bestellte Leistung = erbrachte Leistung?</small>
+          </section>
+        </section>
+        
+        <!-- DISKUSSION -->
+        <section>
+          <section class="topic">
+            <h2>Diskussion</h2>
+            <p>Fragen & Diskussion zur Nutzung von Standards.</p>
+          </section>
+          <section>
+            <h3>Kontakt</h3> 
+            <p>Weitere Informationen und Kontaktdaten unter:</p>
+            <ul>
+              <li><a href="http://jonas.me/">http://jonas.me/</a></li>
+              <li><a href="http://neu.land/">http://neu.land/</a></li>
+            </ul>
+          </section>
+        </section>
+        
+        <!-- ENVELOPE: BACK -->
+			  <section class="envelope" data-background="#005C8E">
+			    <h2>Vielen Dank!</h2>
+			    <small>Author: <a href="http://jonas.me/">Jonas Jared Jacek</a> &middot; License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></small>
+			  </section>
+			</div>
+		</div>
+
+    <script src="../../presentation-framework/2017-03-10/lib/js/head.min.js"></script>
+    <script src="../../presentation-framework/2017-03-10/js/reveal.js"></script>
+
+    <script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/marked.js' },
+					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/markdown.js' },
+					{ src: '../../presentation-framework/2017-03-10/plugin/notes/notes.js', async: true },
+					{ src: '../../presentation-framework/2017-03-10/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+    </script>
+  </body>
+</html>
