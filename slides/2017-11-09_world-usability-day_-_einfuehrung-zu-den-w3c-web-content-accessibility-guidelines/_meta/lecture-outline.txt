@@ -1,0 +1,59 @@
+- Einleitung
+  Die Bedeutung des Internets und des World Wide Web sind in ihrer Universalität begründet. 
+  Die Möglichkeit das Internet und World Wide Web zunutzen, unabhängig von körperlicher/technischer/etc. Behinderung ist ein wesentlicher Aspekt dieser Universalität.
+ 
+  - Es gibt diverse User-Agents
+  - Es gibt diverse darunterliegende Technologien (z.B. Betriebssysteme)
+  - Alle User sind verschieden
+    - 15% der Weltbevölkerung, erleben irgendeine Form von Behinderung/Einschränkung. Das entspricht ca. einer Milliarde Menschen weltweit.
+      via http://www.worldbank.org/en/topic/disability
+  
+
+
+- Einführung World Wide Web Consortium (W3C) [slides]
+  - Mission
+  - Das W3C-Verfahren
+    via: https://www.w3.org/Consortium/Process/
+
+- Einführung Web Accessibility Initiative (WAI) [slides]
+  - Arbeitsweise
+    - Task Forces
+    - Mitwirken
+      via https://www.w3.org/WAI/GL/#contribute ff.
+      - kommentieren
+      - Inhalte beitragen
+      - sich beteiligen
+      - Treffen
+      - Kommunikation
+
+- Einführung Web Content Accessibility Guidelines (WCAG) [slides]
+  - Richtlinien für barrierefreie Webinhalte (WCAG) 2.0
+    - Der Standard befasst sich mit Herausforderungen denen Menschen mit Behinderungen begegnen können. Dazu zählen u.a.
+      - Blindheit und Sehschwäche
+      - Taubheit und Hörverlust
+      - Lernschwierigkeiten
+      - kognitive Einschränkungen
+      - begrenzte Bewegungen
+      - Sprachbehinderungen
+      - Lichtempfindlichkeit
+    
+    - Zum Beispiel empfehlen die Richtlinien, dass Textalternativen für irgendwelche Nicht-Text-Inhalte bereitgestellt werden, so dass Menschen, die assistive Technologie nutzen, von allen Informationen profitieren können. Sie verlangen auch, dass Seiten in einer Weise entworfen werden, um Krampfanfälle zu vermeiden und Merkmale wie Vorhersagbarkeit und Lesbarkeit zu betonen.
+  
+    - ISO/IEC 40500:2012
+      via https://www.iso.org/standard/58625.html
+          https://www.iso.org/news/2012/10/Ref1670.html
+    - Scope
+      Web und darüber hinaus
+      - interaction design
+      - (web) design
+      - (web) development
+      - search engine optimization
+      - Email
+      - Print
+      
+    - Werkzeuge
+      - 
+      
+    - Links
+      - WCAG [latest]
+        https://www.w3.org/TR/WCAG20/
