@@ -1,25 +1,13 @@
 - Einleitung
   Die Bedeutung des Internets und des World Wide Web sind in ihrer Universalität begründet. 
   Die Möglichkeit das Internet und World Wide Web zu nutzen, unabhängig von körperlicher/technischer/etc. Behinderung ist ein wesentlicher Aspekt dieser Universalität.
- 
-  - Es gibt diverse User-Agents
-  - Es gibt diverse darunterliegende Technologien (z.B. Betriebssysteme)
-  - Alle User sind verschieden
-  
 
-# Einführung World Wide Web Consortium (W3C) [slides]
-  
-
-  - Mission
-    Mission des W3C ist es, dem World Wide Web zu helfen sein volles Potenzial zu entfalten.
-    Zu diesem Zweck entwickelt das W3C Protokolle und Richtlinien, die das langfristige Wachstum des Internets und des World Wide Web sicherstellen.
-    Teil der Mission ist, das World Wide Web für alle Menschen zugänglich zu machen, unabhängig von ihrer Hardware, Software, Netzwerkinfrastruktur, Muttersprache, Kultur, geographischer Lage oder körperlicher oder geistiger Fähigkeit.
-    via: https://www.w3.org/Consortium/mission
-    
-  - Das W3C-Verfahren
-    via: https://www.w3.org/Consortium/Process/
 
 # Einführung Web Accessibility Initiative (WAI) [slides]
+  - Working Groups und Aktivitäten
+    Beim W3C sind rund 451 Organisationen mit vielen Mitarbeiten aktiv.
+    Standing on the shoulders of giants.
+  
   - Arbeitsweise
     - Task Forces
     - Mitwirken
@@ -29,6 +17,10 @@
       - sich beteiligen
       - Treffen
       - Kommunikation
+      
+    Das W3C-Verfahren
+    via: https://www.w3.org/Consortium/Process/
+    
 
 # Einführung Web Content Accessibility Guidelines (WCAG) [slides]
 
@@ -47,6 +39,7 @@
       - begrenzte Bewegungen
       - Sprachbehinderungen
       - Lichtempfindlichkeit
+      - sowie Kombinationen dieser Einschränkungen.
     
     - Zum Beispiel empfehlen die Richtlinien, dass Textalternativen für irgendwelche Nicht-Text-Inhalte bereitgestellt werden, so dass Menschen, die assistive Technologie nutzen, von allen Informationen profitieren können. Sie verlangen auch, dass Seiten in einer Weise entworfen werden, um Krampfanfälle zu vermeiden und Merkmale wie Vorhersagbarkeit und Lesbarkeit zu betonen.
   
@@ -62,9 +55,17 @@
       - Email
       - Print
       
+    - Es gibt diverse User-Agents (demonstration of e.g. elinks/compare with first web site)
+    - Es gibt diverse darunterliegende Technologien (z.B. Betriebssysteme)
+    - Alle User sind verschieden
+      
     - Werkzeuge
       - 
       
     - Links
       - WCAG [latest]
         https://www.w3.org/TR/WCAG20/
+      - Understanding WCAG
+        http://www.w3.org/TR/UNDERSTANDING-WCAG20/
+      - Techniques for WCAG
+        http://www.w3.org/TR/WCAG20-TECHS/
