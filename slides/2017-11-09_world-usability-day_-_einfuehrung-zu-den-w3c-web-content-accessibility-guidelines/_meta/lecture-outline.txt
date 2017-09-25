@@ -1,21 +1,25 @@
 - Einleitung
   Die Bedeutung des Internets und des World Wide Web sind in ihrer Universalität begründet. 
-  Die Möglichkeit das Internet und World Wide Web zunutzen, unabhängig von körperlicher/technischer/etc. Behinderung ist ein wesentlicher Aspekt dieser Universalität.
+  Die Möglichkeit das Internet und World Wide Web zu nutzen, unabhängig von körperlicher/technischer/etc. Behinderung ist ein wesentlicher Aspekt dieser Universalität.
  
   - Es gibt diverse User-Agents
   - Es gibt diverse darunterliegende Technologien (z.B. Betriebssysteme)
   - Alle User sind verschieden
-    - 15% der Weltbevölkerung, erleben irgendeine Form von Behinderung/Einschränkung. Das entspricht ca. einer Milliarde Menschen weltweit.
-      via http://www.worldbank.org/en/topic/disability
   
 
+# Einführung World Wide Web Consortium (W3C) [slides]
+  
 
-- Einführung World Wide Web Consortium (W3C) [slides]
   - Mission
+    Mission des W3C ist es, dem World Wide Web zu helfen sein volles Potenzial zu entfalten.
+    Zu diesem Zweck entwickelt das W3C Protokolle und Richtlinien, die das langfristige Wachstum des Internets und des World Wide Web sicherstellen.
+    Teil der Mission ist, das World Wide Web für alle Menschen zugänglich zu machen, unabhängig von ihrer Hardware, Software, Netzwerkinfrastruktur, Muttersprache, Kultur, geographischer Lage oder körperlicher oder geistiger Fähigkeit.
+    via: https://www.w3.org/Consortium/mission
+    
   - Das W3C-Verfahren
     via: https://www.w3.org/Consortium/Process/
 
-- Einführung Web Accessibility Initiative (WAI) [slides]
+# Einführung Web Accessibility Initiative (WAI) [slides]
   - Arbeitsweise
     - Task Forces
     - Mitwirken
@@ -26,9 +30,16 @@
       - Treffen
       - Kommunikation
 
-- Einführung Web Content Accessibility Guidelines (WCAG) [slides]
+# Einführung Web Content Accessibility Guidelines (WCAG) [slides]
+
   - Richtlinien für barrierefreie Webinhalte (WCAG) 2.0
-    - Der Standard befasst sich mit Herausforderungen denen Menschen mit Behinderungen begegnen können. Dazu zählen u.a.
+  
+    - Menschen mit Behinderungen/Einschränkungen
+      15% der Weltbevölkerung, erleben irgendeine Form von Behinderung/Einschränkung. 
+      Das entspricht ca. einer Milliarde Menschen weltweit.
+      via: http://www.worldbank.org/en/topic/disability
+      
+    - Der Standard umfasst eine breite Palette von Empfehlungen für die Bereitstellung von Webinhalten für Menschen mit Behinderungen/Einschränkungen, u.a.:
       - Blindheit und Sehschwäche
       - Taubheit und Hörverlust
       - Lernschwierigkeiten
