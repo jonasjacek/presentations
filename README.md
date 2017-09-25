@@ -11,6 +11,7 @@ Table of slides and presentations contained within this repository.
 Date | Event | Topic | Language
 ------------ | ------------- | ------------- | -------------
 2017-05-09 | webXpert Conference | Einführung zu Internet- und Webstandards | German
+2017-11-09 | World Usability Day |  Einführung zu den W3C Web Content Accessibility Guidelines (WCAG) | German
 2017-XX-XX | HTML Camp | Introduction to HTML & CSS | English
 
 ## Errors
