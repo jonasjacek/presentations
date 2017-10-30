@@ -262,10 +262,10 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <p>Die (normativen) technischen Spezifikationen finden Sie unter <a href="https://www.w3.org/TR/WCAG20/">www.w3.org/TR/WCAG20</a>.</p>
           </section>
           <section>
-            <h4>Kernanforderungen an Inhalte</h4>
-            <p>Anforderungen (Success Criteria) der WCAG an barrierefreie Inhalte:</p>
+            <h4>Grundsätze (Principles)</h4>
+            <p>Anforderungen der WCAG an barrierefreiheit:</p>
             <ol>
-              <li><b>Wahrnehmbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b style="color: #d75f00;">Wahrnehmbar</b> <i>(4 Richtlinien)</i></li>
               <li><b>Bedienbar</b> <i>(4 Richtlinien)</i></li>
               <li><b>Verständlich</b> <i>(3 Richtlinien)</i></li>
               <li><b>Robust</b> <i>(1 Richtlinie)</i></li>
@@ -274,22 +274,11 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
           <section>
             <h5>1. Wahrnehmbar</h5>
             <p><b>Allgemeine Anforderung:</b></p>
-            <p><i>&quot;Stellen Sie Textalternativen für alle Nicht-Text-Inhalte zur Verfügung, damit diese in andere Formen umgewandelt werden können.&quot;</i></p>
+            <p><i>&quot;Informationen und Komponenten der Benutzeroberfläche (z.B. Formulare) müssen so aufbereitet sein, dass ein Benutzer sie auf unterschiedliche Art und Weise wahrnehmen kann.&quot;</i></p>
           </section>
           <section>
             <h5>1. Wahrnehmbar</h5>
-            <p>Beispiele für andere Formen der Darstellung:</p>
-            <ul>
-              <li>(Groß)Druck</li>
-              <li>Blindenschrift</li>
-              <li>Gesprochenes Wort (Audio)</li>
-              <li>Symbole</li>
-              <li>einfache Sprache</li>
-            </ul>
-          </section>
-          <section>
-            <h5>1. Wahrnehmbar</h5>
-            <p>Die Anforderung enthält folgende 4 Richtlinien für barrierefreie Inhalte:</p>
+            <p>Die Anforderung enthält folgende 4 Richtlinien für barrierefreiheit:</p>
             <ol>
               <li><a href="https://www.w3.org/WAI/WCAG20/quickref/#text-equiv">Textalternativen für Nicht-Text-Inhalte</a></li>
               <li><a href="https://www.w3.org/WAI/WCAG20/quickref/#media-equiv">Alternativen für zeitbasierte Medien</a></li>
@@ -307,7 +296,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <h6>1.1. Textalternativen</h6>
             <hr>
             <p><b>Beispiel 1</b>: Alternative = Text</p>
-            <img style="border: none;" src="img/missing-text-alternative.png" alt="Beispielbild, unausgefülltes alt-Attribut.">
+            <img style="border: none;" src="img/missing-text-alternative.png" alt="Beispielbild: Unausgefülltes alt-Attribut.">
           </section>
           <section>
             <h6>1.1. Textalternativen</h6>
@@ -325,7 +314,7 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <h6>1.2. Alternativen für zeitbasierte Medien</h6>
             <hr>
             <p><b>Beispiel</b>: Alternative = Text (Web Video Text Track (.vtt))</p>
-            <img style="border: none;" src="img/video-track-element.jpg" alt="Beispielbild, HTML5 Videoplayer (HTML5-Track-Element und .vtt-Datei.">
+            <img style="border: none;" src="img/video-track-element.jpg" alt="Beispielbild: HTML5 Videoplayer (HTML5-Track-Element und .vtt-Datei.">
           </section>
           <section>
             <h6>1.3. Anpassungsfähig</h6>
@@ -337,13 +326,13 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <h6>1.3. Anpassungsfähig</h6>
             <hr>
             <p><b>Beispiel</b>: Inhalt unabhängig von visueller Darstellung</p>
-            <img style="border: none;" src="img/verschieden-darstellbar_1.png" alt="Beispielbild, ZEIT Online Überschrift in gerendert im Browser und Code.">
+            <img style="border: none;" src="img/verschieden-darstellbar_1.png" alt="Beispielbild: ZEIT Online Überschrift in gerendert im Browser und Code.">
           </section>
           <section>
             <h6>1.3. Anpassungsfähig</h6>
             <hr>
             <p><b>Beispiel</b>: Inhalt unabhängig von visueller Darstellung</p>
-            <img style="border: none;" src="img/verschieden-darstellbar_2.png" alt="Beispielbild, ZEIT Online Überschrift in Kommandozeilenbrowser.">
+            <img style="border: none;" src="img/verschieden-darstellbar_2.png" alt="Beispielbild: ZEIT Online Überschrift in Kommandozeilenbrowser.">
           </section>
           <section>
             <h6>1.4. Unterscheidbar</h6>
@@ -355,19 +344,80 @@ The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab 
             <h6>1.4. Unterscheidbar</h6>
             <hr>
             <p><b>Beispiel 1</b>: Farbunabhängige Informationen.</p>
-            <img style="border: none;" src="img/form-inaccessible.png" alt="Beispielbild, nicht barrierefreies Formular">
+            <img style="border: none;" src="img/form-inaccessible.png" alt="Beispielbild: Nicht barrierefreies Formular">
           </section>
           <section>
             <h6>1.4. Unterscheidbar</h6>
             <hr>
             <p><b>Beispiel 1</b>: Alternative = Symbole</p>
-            <img style="border: none;" height="244" src="img/form-accessible.png" alt="Beispielbild, nicht barrierefreies Formular">
+            <img style="border: none;" height="244" src="img/form-accessible.png" alt="Beispielbild: Nicht barrierefreies Formular">
           </section>
           <section>
             <h6>1.4. Unterscheidbar</h6>
             <hr>
             <p><b>Beispiel 2</b>: Schriftart, Größe und Kontrast.</p>
-            <img style="border: none;" height="244" src="img/readable-fonts.png" alt="Beispielbild, nicht barrierefreies Formular">
+            <img style="border: none;" height="244" src="img/readable-fonts.png" alt="Beispielbild: Nicht barrierefreies Formular">
+          </section>
+          <section>
+            <h4>Grundsätze (Principles)</h4>
+            <p>Anforderungen der WCAG an barrierefreiheit:</p>
+            <ol>
+              <li><b>Wahrnehmbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b style="color: #d75f00;">Bedienbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b>Verständlich</b> <i>(3 Richtlinien)</i></li>
+              <li><b>Robust</b> <i>(1 Richtlinie)</i></li>
+            </ol>
+          </section>
+          <section>
+            <h5>2. Bedienbar</h5>
+            <p><b>Allgemeine Anforderung:</b></p>
+            <p><i>&quot;Komponenten der Benutzeroberfläche und Navigation müssen auf unterschiedliche Art und Weise bedienbar sein.&quot;</i></p>
+          </section>
+          <section>
+            <h5>2. Bedienbar</h5>
+            <p>Der Grundsatz enthält folgende 4 Richtlinien für barrierefreiheit:</p>
+            <ol>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#keyboard-operation">Funktionen per Tastatur zugängig</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#time-limits">Genügend Zeit zum Lesen und Verwenden</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#seizure">Inhalte die keine Krampfanfälle verursachen</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#navigation-mechanisms">Einfaches navigieren</a></li>
+            </ol>
+          </section>
+          <section>
+            <h6>2.1. Per Tastatur zugänglich</h6>
+            <hr>
+            <p><i>&quot;Stellen Sie alle Funktionen auch über eine Tastatur zur Verfügung.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html</a></small></p>
+          </section>
+          <section>
+            <h6>2.1. Per Tastatur zugänglich</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 1</b>: Keyboard Trap [<a href="https://codepen.io/jonasjacek/full/xPbpqJ/">codepen.io</a>]</p>
+            <img style="border: none;" src="img/keyboard-trap.png" alt="Beispielbild: Code-Beispiel einer keyboard-Trap bei codepen.io.">
+          </section>
+          <section>
+            <h6>2.1. Per Tastatur zugänglich</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 2</b>: Unzugänglich [<a href="http://wudhh.de/programm">wudhh.de</a>]</p>
+            <img style="border: none;" src="img/inaccessible-for-keyboard.png" alt="Beispielbild: Das Programm des WUDHH 2017 ist nicht mit Tab ansteuerbar.">
+          </section>
+          <section>
+            <h6>2.2. Genügend Zeit zum Lesen und Verwenden</h6>
+            <hr>
+            <p><i>&quot;Stellen Sie Benutzern ausreichend Zeit zum Lesen und Verwenden von Inhalten zur Verfügung.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits.html</a></small></p>
+          </section>
+          <section>
+            <h6>2.2. Genügend Zeit zum Lesen und Verwenden</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Pause, Stop, Hide</p>
+            <img style="border: none;" src="img/caroussel-pause.jpg" alt="Beispielbild: Ein s.g. Caroussel auf der Webseite bundeskanzlerin.de mit einem Pause-Knopf.">
+          </section>
+          <section>
+            <h6>2.2. Genügend Zeit zum Lesen und Verwenden</h6>
+            <hr>
+            <p><b>Beispiel</b>: Nichteinhaltung</p>
+            <img style="border: none;" src="img/autoplay-videos-chrome.png" alt="Artikel bei Heise Online über den Chrome Browser, der Autoplay-Videos blockiert.">
           </section>
           
           
