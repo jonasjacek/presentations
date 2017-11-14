@@ -10,8 +10,8 @@ Table of slides and presentations contained within this repository.
 
 Date | Event | Topic | Language
 ------------ | ------------- | ------------- | -------------
-2017-05-09 | webXpert Conference | Einführung zu Internet- und Webstandards | German
-2017-11-09 | World Usability Day |  Einführung zu den W3C Web Content Accessibility Guidelines | German
+2017-05-09 | webXpert Conference | [Einführung zu Internet- und Webstandards](https://jonasjacek.github.io/presentations/slides/2017-05-09_webxpert-conference_-_einfuehrung-zu-internet-und-webstandards/) | German
+2017-11-09 | World Usability Day |  [Einführung zu den W3C Web Content Accessibility Guidelines](https://jonasjacek.github.io/presentations/slides/2017-11-09_world-usability-day_-_einfuehrung-zu-den-w3c-web-content-accessibility-guidelines/) | German
 2017-XX-XX | HTML Camp | Introduction to HTML & CSS | English
 
 ## Errors
