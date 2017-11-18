@@ -88,10 +88,10 @@ section.has-dark-background .subtitle {
 .reveal .mono {
   font-family: mono;
   font-size: .8em;
-  color: #333;
 }
 .reveal pre {
   box-shadow: none;
+  line-height: 1.35;
   margin: 0 auto;
   width: 100%;
 }
