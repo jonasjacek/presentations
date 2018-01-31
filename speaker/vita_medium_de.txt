@@ -2,4 +2,4 @@ Jonas Jared Jacek arbeitet als Berater für Internet und Web Standards. Er veran
 Die Standardisierung von Internet- und Web-Technologien, Netzneutralität und der freie Zugang zu Technologien (Free/Libre Open Source Software) und Wissen (Open Access) sind für ihn Herzensangelegenheiten.
 Zwischen 2011 und 2015 war er als 'Invited Expert' in den Arbeitsgruppen des World Wide Web Consortiums (W3C) für Hypertext Markup Language (HTML) und den Web Content Accessibility Guidelines (WCAG) aktiv. 
 Er engagiert sich für die Freie-Software-Bewegung im LaTeX Project und im Debian Project. Er ist Mitbegründer des Hacker- und Makerspace Attraktor in Hamburg.
-Jonas Jared Jacek ist seit 2012 Mitglied der Internet Society. Seit 2016 ist er im Präsidium und Vorstand der ISOC.DE tätig. 
+Jonas Jared Jacek ist seit 2012 Mitglied der Internet Society. Seit 2016 ist er in Präsidium und Vorstand der ISOC.DE tätig. 
