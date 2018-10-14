@@ -1,0 +1,5 @@
+"Sei nicht böse", oder "don't be evil" war ein Motto, das im Verhaltenskodex von Google verwendet wurde. Das Motto war immer umstritten. Ob ein Design "böse" ist, liegt oft im Auge des Betrachters. A/B-Testing zeigt regelmäßig: Zwischen Benutzerführung und Benutzergängelung verläuft oft nur ein sehr schmaler Grat. Dies machen sich gewiefte Marketers zunutze.
+
+Anhand vieler prägnanter Beispiele zeigt der Vortrag, wie Design uns dazu bringen kann, das zu tun, was andere wollen. Entdecken Sie überzeugendes Interface-Design von der dunklen Seite und schärfen Sie Ihren Blick für gute User-Experience. 
+
+Der Vortrag enthält Elemente aus Psychologie, Marketing und bekannten Designkonzepten.
