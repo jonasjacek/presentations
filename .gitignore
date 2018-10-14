@@ -1,7 +1,11 @@
 # various
+.~
 *.*~
 *.bak
 *.log
 *.swp
 *.swo
 *.vim
+
+# directories
+notes/
