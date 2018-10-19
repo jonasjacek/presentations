@@ -1,0 +1,60 @@
+# INTERVIEW
+# =========
+# inkl. Anmerkungen von Klaus Birkenbihl
+# Fragen von Christina Höhnen
+
+
+# Alle Fragen
+# ===========
+
+* Wie universell ist das Internet bzw. der Zugang dazu wirklich?
+* Welchen Personengruppen fällt die Nutzung des Internets besonders schwer?
+* Was sind die größten Barrieren in der Nutzung des Internets?
+* Sind die WCAG-Leitlinien vollends erfüllbar?
+* Welches sind die wichtigsten Werkzeuge zur Sicherstellung der WCAG-Leitlinien?
+* Welche Rollen spielen Sprachassistenten wie Siri, Alexa und Co.?
+* Hinkt Deutschland in der Erfüllung der WCAG-Leitlinien hinterher? Wenn ja, wo und warum?
+
+
+# Antworten
+# =========
+
+1. Wie universell ist das Internet bzw. der Zugang dazu wirklich?
+
+Das Internet und das World Wide Web (WWW) sind grundsätzlich so konzipiert, dass sie für alle Menschen, unabhängig von ihrer genutzen Hard- und Software, ihrer Sprache und Kultur, ihrem Standort, ihren physischen oder mentalen Fähigkeiten, funktionieren.
+
+Die Standardisierungsorganisationen für die Technologien des Internet, die Internet Engineering Task Force und für die Technologien des World Wide Web, das World Wide Web Consortium (W3C) legen hierfür die Grundsteine. 
+
+Auch wenn die Technologien nicht im Weg stehen, so legen Autoren von Webseiten, Webentwickler, Programmierer und andere, oft nur einen geringen Wert auf die korrekte Anwendung der durch Standardisierungsorganisationen verfassten Richtlinien. Das ist der Kern eines Problems, für das mehr Aufmerksamkeit geschaffen werden muss.
+
+Aus politischer Sicht kümmert sich die Internet Society (ISOC) weltweit um Belange wie universellen und freien Zugang zum Internet. Der Global Internet Report der ISOC zeigt das Ausmaß der Herausforderung und was wir noch tun müssen. So lesten die Standards zum Beispiel einen wichtigen Beitrag zur Durchsetzung der EU-Grundrechtecharta. Diese verbietet Diskriminierung aufgrund einer Behinderung und erkennt das Recht von Menschen mit Behinderungen auf Integration an.
+
+
+4. Sind die WCAG-Leitlinien vollends erfüllbar?
+
+Die vom W3C entwickelten Web Content Accessibility Guidelines (WCAG) sind Richtlinien zur Erreichung von Barrierefreiheit im WWW. Im Jahr 2012 wurden diese Richtlinien eine Norm der International Organization for Standardization (ISO), ISO/IEC 40500:2012. Hintergrund war die Vereinheitlichung verschiedener Richtlinien.
+
+In Deutschland gibt es zum Beispiel die Barrierefreie Informationstechnik-Verordnung (BITV), in Frankreich die Référentiel Général d’Accessibilité pour les Administrations (RGAA), in den vereinigten Staaten von Amerika Section 508. Weltweit gibt es eine Vielzahl dieser staatlichen Zugänglichkeitsprogramme. Die Richtlinien sollen jeweils sicherstellen, dass alle Menschen z.B. die Webseiten von staatlichen Einrichtungen bedienen können. Selbstverständlich sind alle Leitlinien erfüllbar. In der Regel verbessert ihre Einhaltung auch das Design und die Positionierung bei Suchmaschinen.  Die Regeln lassen sich aber auch auf andere Produkte des WWW, zum Beispiel Mobile Applications, anwenden. Sie sind oft sogar anwendbar über Internet und WWW hinaus. Die WCAG sind heute die bedeutendsten internationalen Richtlinien in dem Bereich Web.
+
+
+5. Welches sind die wichtigsten Werkzeuge zur Sicherstellung der WCAG-Leitlinien?
+
+Das W3C pflegt eine Liste mit Werkzeugen, mit welchen sich diverse Richtlinien überprüfen lassen. Die Optionen auf der Seite erlaub nach Werkzeugen für eine Vielzahl von staatlichen Zugänglichkeitsprogrammen und den WCAG zu filtern. Sie finden diese Liste unter https://www.w3.org/WAI/ER/tools/. Für Webseiten ist eines der wichtigsten Werkzeuge der HTML Validator. Sie finden ihn unter https://validator.w3.org/nu/, der allerdings nur die Einhaltung des HTML-Standards prüft.
+
+Es lassen sich leider nicht alle Regeln automatisiert prüfen. Für Anforderungen zu Farbkontrasten, Alternativ-Texten für Multimediainhalte, etc. geht das allerdings schon. Um so wichtiger ist es, ein Verständnis für die Wirkungsweise der Standards bei Webdesignern und Entwicklern zu schaffen.
+
+
+6. Welche Rollen spielen Sprachassistenten wie Siri, Alexa und Co.?
+
+Primaär verfolgen diese Assistenten – neben geschäftlichen – das Ziel, den Funktionsumfang des Internet zu erweitern und den Zugang bequemer zu machen. Und natürlich erhöht die Fähigkeit, gesprochene Sprache zu verstehen auch die Barrierefreiheit erheblich.
+
+Eine Anforderung aller Richtlinien von IETF und W3C ist allerdings die Unabhängigkeit von Hard- und Software. Insofern spielen Sprachinterfaces dort keine besondere Rolle. Konkret auf die WCAG bezogen: Es gibt die Anforderung 1.3 "Erstellen Sie Inhalte, die auf unterschiedliche Weise dargestellt werden können, ohne Informationen oder Struktur zu verlieren." Dazu zählen in jedem Fall auch Sprachinterfaces. Wenn die Richtlinien alle eingehalten wurden, sollten Sprachassistenten einwandfrei funktionieren können.
+
+
+7. Hinkt Deutschland in der Erfüllung der WCAG-Leitlinien hinterher? Wenn ja, wo und warum?
+
+Internet und World Wide Web sind keine statischen Dinge. In den Firmen und Agenturen, welche Webprodukte erstellen, beginnt man dies zu verstehen. Es gilt das Prinzip der permanenten Verbesserung und Weiterentwicklung. In der Webentwicklung ist der Begriff dafür Continous Integration. Das monolithische Produkt, erstellt nach einem Feinkonzept, gibt es eigentlich nicht mehr.
+
+Es ist allerdings so, dass viele Webseiten nicht standardkonform erstellt werden. Und das obwohl sich mehr und mehr herumspricht, dass standardkonforme Webseiten nicht nur was Barrierefreiheit und Suchmaschinenfreundlichkeit angeht, die Qualität einer Webseite verbessern. Das gilt für staatliche Webseiten genauso wie für alle anderen auch. Somit machen wir es allen Menschen, inklusive Menschen mit Behinderungen, unnötig schwer das Web zu benutzen.
+
+Die Gründe dafür sind sehr unterschiedlich. Ich erkenne eine sehr wichtige Rolle beim s.g. False-Consensus Effect. Dabei wird das Ausmaß der eigenen Meinungen, Vorstellungen, Vorlieben, Werte und Gewohnheiten normal und typisch für Andere eingeschätzt. Die meisten Leute in Web-Agenturen sind jung und gesund. Es erscheint Ihnen oft unbedeutend, was z.B. Menschen mit Behinderungen für Anforderungen an Webprodukte wie z.B. Webseiten haben. Fehlendes Budget, schlechte Ausbildung und Faulheit sind sicherlich auch bedeutende Aspekte.
