@@ -1,0 +1,3 @@
+The importance of the Internet is grounded in its universality. The ability to use the Internet, regardless of disability, is an essential aspect of this universality.
+The World Wide Web Consortium (W3C), the World Wide Web standardization body, is developing guidelines and tools to make the Internet accessible to people with disabilities. The work takes place in the Web Accessibility Initiative (WAI), which is responsible for the Web Content Accessibility Guidelines (WCAG).
+The presentation is an introduction to the work of the WAI and presents the WCAG guidelines and some tools.

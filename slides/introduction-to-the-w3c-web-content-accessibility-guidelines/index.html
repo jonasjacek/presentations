@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<!-- Slide contents are licensed by Jonas Jared Jacek (http://jonas.me/) with a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You can find the full license at https://raw.githubusercontent.com/jonasjacek/presentations/master/LICENSE. 
+
+The slides are based on https://github.com/hakimel/reveal.js by Hakim El Hattab released under MIT license. The license can be found at https://raw.githubusercontent.com/jonasjacek/presentations/master/presentation-framework/YYYY-MM-DD/LICENSE. 
+
+The online version of this presentation can be found at:
+https://jonasjacek.github.io/presentations/slides/2017-11-09_world-usability-day_-_einfuehrung-zu-den-w3c-web-content-accessibility-guidelines/ -->
+
+<html lang="de">
+  <head>
+  	<meta charset="utf-8">
+    <meta name="robots" content="noindex,follow,noarchive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Einführung zu den W3C Web Content Accessibility Guidelines (WCAG)</title>
+    <link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/reveal.css">
+    <link rel="stylesheet" href="../../presentation-framework/2017-03-10/css/theme/white.css">
+    <link rel="stylesheet" href="../../themes/default.css">
+
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../presentation-framework/2017-03-10/css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			  
+			  <!-- ENVELOPE: FRONT -->
+			  <section class="envelope" data-background="#005C8E" lang="en">
+			    <h1>WCAG</h1>
+			    <p class="subtitle">Web Content Accessibility Guidelines</p>
+			    <small>Author: <a href="http://jonas.me/" rel="author">Jonas Jared Jacek</a> &middot; License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></small>
+			    <p>Vortragszeit: ~30 min</p>
+			  </section>
+			  
+				<!-- TOC -->
+				<section class="toc" data-background="#f4f2f0">
+				  <h2>Themen</h2>
+				  <ul>
+            <li><strong>Einordnung</strong><br><small>Die Geschichte des World Wide Web und die Arbeit des W3C.</small></li>
+            <li><strong>Web Accessibility</strong><br><small>Die Arbeit des W3C für Barrierefreiheit im World Wide Web.</small></li>
+            <li><strong>WCAG 2.0</strong><br><small>Blick auf die Web Content Accessibility Guidelines.</small></li>
+				  </ul>
+				</section>
+				
+				<!-- EINORDNUNG -->
+        <section>
+          <h1 style="position: absolute !important; clip: rect(1px, 1px, 1px, 1px); padding:0 !important; border:0 !important; height: 1px !important; width: 1px !important; overflow: hidden;">Teil 1</h1>
+          <section class="topic">
+            <h2>Einordnung</h2>
+            <p style="font-size: .95em;">Geschichte des World Wide Web und die Arbeit des W3C.</p>
+          </section>
+          <section>
+            <h3>Geschichte</h3>
+            <ul>
+              <li>1989 entwickelt <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> das <i>Mesh</i></li>
+              <li>am <abbr title="Conseil européen pour la recherche nucléaire">CERN</abbr>, in Genf, Schweiz.</li>
+              <li>1990 wird das <i>Mesh</i> umbenannt in <i>World Wide Web</i>.</li>
+            </ul>
+          </section>
+          <section>
+              <h4>Sir Tim Berners-Lee</h4>
+              <img style="float: left; margin: .3em .6em 0 0;" src="img/sir-tim-berners-lee-1994.jpg" alt="Tim Berners-Lee at his desk in CERN, 1994">
+              <p>Tim Berners-Lee hat die erste Webseite, den ersten Browser und den ersten Webserver entwickelt.</p>
+              <p>Er schrieb die ersten Spezifikationen für <abbr title="Uniform Resource Locator">URL</abbr>s, <abbr title="Hypertext Transfer Protocol">HTTP</abbr> und <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+          </section>
+          <section>
+            <h4>World Wide Web Consortium (W3C)</h4>
+            <img style="border:0; box-shadow: none; float: left; margin: .2em 1em .4em 0;" src="img/w3c-logo.svg" alt="W3C Logo">
+            <p>1994 gründete Tim Berners-Lee das <a href="https://www.w3.org/">W3C</a>, eine Standardisierungsorganisation für die Technologien des World Wide Web.</p>
+          </section>
+					<section>
+            <h5>Mission</h5> 
+            <p>Die Entwicklung von Protokollen und Richtlinien (Standards), die das langfristige Wachstum des World Wide Web sicherstellen und voll ausschöpfen.</p>
+          </section>
+					<section>
+            <h5>Standards</h5> 
+            <p>Das W3C entwickelt hunderte von Standards. Zum Beispiel: HTML, XML, CSS, SVG, WOFF, WCAG, etc.</p>
+          </section>
+          <section>
+            <h5>Mitglieder</h5>
+            <p>Mehr als 450 Organisationen sind im W3C aktiv.<br>Auszug der Mitgliederliste:</p>
+            <ul>
+              <li>Arron Eicholz, <i>Microsoft</i></li>
+                <li>Alex Danilo, <i>Google</i></li>
+                <li>Edward O'Connor, <i>Apple Inc.</i></li>
+                <li>Jonathan Watt, <i>Mozilla Corporation</i></li>
+                <li>Erik Dahlström, <i>Opera Software</i></li>
+                <li>Anthony Grasso, <i>Canon Inc.</i></li>
+              <li>&hellip;</li>
+            </ul>
+          </section>
+          <section>
+            <h5>Durchsetzungsfähig</h5>
+            <ul>
+              <li><strong>Gesellschaftlich breit aufgestellt</strong><br><small>Regierungsvertreter, Akademiker (R&D), Privatunternehmen, Organisationen, &hellip;</small></li>
+              <li><strong>Offene Prozesse</strong><br><small>(Größtenteils) transparente Prozesse, Beteiligung/Feedback ist möglich und gefordert.</small></li>
+              <li><strong>Freie Nutzung</strong><br><small>Standards sind frei zugänglich, kostenfreie Nutzung, weite Verbreitung ist angestrebt.</small></li>
+            </ul>
+          </section>
+          <section>
+            <h5>W3C - Multilingual Web Workshop</h5>
+            <img src="img/w3c-mlw.jpg" alt="W3C Multilingual Weg Workshop">
+            <small>Europäische Kommission, Luxemburg - 2012</small>
+          </section>
+        </section>
+
+        <!-- WEB ACCESSIBILITY -->
+        <section>
+          <h1 style="position: absolute !important; clip: rect(1px, 1px, 1px, 1px); padding:0 !important; border:0 !important; height: 1px !important; width: 1px !important; overflow: hidden;">Teil 2</h1>
+          <section class="topic">
+            <h2 style="font-size: 1.47em;">Web Accessibility</h2>
+            <p>Die Arbeit des W3C für Barrierefreiheit im Web.</p>
+          </section>
+          <section>
+            <h3>Barrierefreiheit</h3>
+            <p><i>&quot;Die Kraft des World Wide Web ist in seiner Universalität begründet.</i></p>
+            <p><i>Der Zugang von allen, unabhängig von Behinderung ist ein wesentlicher Aspekt dieser Universalität.&quot;</i></p>
+          <p>Tim Berners-Lee</p>
+          </section>
+          <section>
+            <h3>Ein Web für alle Menschen</h3>
+            <p>... unabhängig von ihrer Hardware, Software, Netzwerkinfrastruktur, Sprache, Kultur, geographischer Lage oder körperlicher oder geistiger Fähigkeit.</p>
+          </section>
+          <section>
+            <h4>Hardware und Software</h4>
+            <img style="border:0; box-shadow: none; float: left; margin: .3em 1em .4em 0;" src="img/browser-icon.png" alt="Browser Icon">
+            <p>Die Inklusionsarbeit bzgl. Hardware und Software drückt sich u.a. durch die Zusammenarbeit mit Herstellern aus.</p>
+            <p><strong>Beispiele:</strong> Google, Mozilla, Microsoft, Canon, Siemens.</p>
+          </section>
+          <section>
+            <h4>Netzwerke</h4>
+            <img style="border:0; box-shadow: none; float: left; margin: .5em 1em .4em 0;" src="img/ietf-logo.svg" alt="IETF Logo">
+            <p>Die Inklusionsarbeit bzgl. Netzwerkinfrastruktur drückt sich u.a. durch die Zusammenarbeit mit und Kompatibilität zu Standards anderer Standardisierungsorganisationen, z.B. der <a href="https://ietf.org/">Internet Engineering Task Force (IETF)</a> aus.</p>
+            <p><strong>Entwickelt: </strong>TCP/IP, DNS, HTTP, etc.</p>
+          </section>
+					<section style="text-align: center;">
+            <h5>World Wide Web im Internet</h5>
+            <p>IETF beschreibt die Technologien des Internet.<br>W3C beschreibt die Technologien des World Wide Web.</p>
+            <div style="width: 100%;">
+              <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 450px; width: 450px; position: relative; margin: 0 auto; text-align: center;">
+                <p style="margin: .6em 0; font-size: 1em;">Internet<br><i>(IETF)</i></p>
+                <div style="border: 1px solid #000; border-radius: 50%; background: #005A9C; height: 260px; width: 260px; position: absolute; top: 34%; left: 21%; z-index: 1; text-align: center;">
+                  <p style="color: #FFF; margin: 4em 0; font-size: .6em;">World Wide Web<br><i>(W3C)</i></p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h4>Sprache, Kultur und Geografische Lage</h4>
+            <img style="border:0; box-shadow: none; float: left; margin: .35em 1em .4em 0;" src="img/w3c-mlw-text-logo.svg" alt="W3C Multilingual Web (MLW) Activity Logo">
+            <p>Die Inklusionsarbeit bzgl. Sprache, Kultur und geografischer Lage, findet u.a. innerhalb der W3C <a href="https://www.w3.org/International/">Internationalization (i18n) Activity</a> statt.</p>
+            <p><strong>Entwickelt: </strong>Working Group übergreifende Richtlinien und Tutorials für mehrsprachige Inhalte und interkulturelle Funktionen.</p>
+          </section>
+          <section>
+            <h4>Körperliche und geistige Fähigkeiten</h4>
+            <img style="border:0; box-shadow: none; float: left; margin: .35em 1em .4em 0;" src="img/w3c-wai-logo.png" alt="W3C Web Accessibility Initiative (WAI) Logo">
+            <p>Die Inklusionsarbeit bzgl. körperlicher und/oder geistiger Fähigkeiten, findet u.a. innerhalb der W3C <a href="https://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a> statt.</p>
+            <p><strong>Entwickelt: </strong>ATAG, UAAG und WCAG.</p>
+          </section>
+					<section style="text-align: center;">
+            <h5>W3C-Ökosystem</h5>
+            <p>Working Groups &amp; Task Forces entwickeln Standards.</p>
+            <div style="width: 100%;">
+              <div style="border: 1px solid #000; border-radius: 50%; background: #005A9C; height: 450px; width: 450px; position: relative; margin: 0 auto; text-align: center;"><p style="margin: .6em 0; font-size: 1em; color: #FFF;">W3C</p></div>
+              <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 250px; width: 250px; position: absolute; top: 42%; left: 29%; z-index: 1; text-align: center;"><p style="margin: 1.8em 2.5em; font-size: .5em;">HTML<br><i>Working Group (WG)</i></p></div>
+              <div style="border: 1px solid #000; border-radius: 50%; background: #FFF; border-radius: 50%; height: 90px; width: 90px; position: absolute; top: 60%; left: 31%; z-index: 1; text-align: center;"><p style="margin: 1.5em 0; font-size: .5em;">HTML5</p></div>
+              <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 180px; width: 180px; position: absolute; top: 43%; left: 52%; z-index: 1; text-align: center;"><p style="margin: 3em 0; font-size: .6em;">...</p></div>
+              <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; height: 225px; width: 225px; position: absolute; top: 59%; left: 40%; z-index: 1; text-align: center;"><p style="margin: .65em 0; font-size: .5em;">WAI<br><i>Task Force</i></p></div>
+              <div style="border: 1px solid #000; border-radius: 50%; background: #E5E5E5; border-radius: 50%; height: 140px; width: 140px; position: absolute; top: 71%; left: 44.5%; z-index: 2; text-align: center;"><p style="margin: 1em 0; font-size: .45em;">WA WG</p></div>
+              <div style="border: 1px solid #000; border-radius: 50%; background: #FFF; border-radius: 50%; height: 80px; width: 80px; position: absolute; top: 79%; left: 47.5%; z-index: 2; text-align: center;"><p style="margin: .9em 0; font-size: .5em; text-align: center;">WCAG<br>2.0</p></div>
+            </div>
+          </section>
+          <section>
+            <h3>Web Accessibility Komponenten</h3>
+            <p>3 Guidelines für Web Accessibility:</p>
+            <ul>
+              <li>Authoring Tool Accessibility Guidelines (ATAG)</li>
+              <li>Web Content Accessibility Guidelines (WCAG)</li>
+              <li>User Agent Accessibility Guidelines (UAAG)</li>
+            </ul>
+          </section>
+          <section>
+            <h4>Web Accessibility Komponenten</h4>
+            <p>Authoring Tool Accessibility Guidelines (ATAG)</p>
+            <img style="border: none;" src="img/web-accessibility-components_1.png" alt="Web Accessibility Komponenten">
+          </section>
+          <section>
+            <h4>Web Accessibility Komponenten</h4>
+            <p>Web Content Accessibility Guidelines (WCAG)</p>
+            <img style="border: none;" src="img/web-accessibility-components_2.png" alt="Web Accessibility Komponenten">
+          </section>
+          <section>
+            <h4>Web Accessibility Komponenten</h4>
+            <p>User Agent Accessibility Guidelines (UAAG)</p>
+            <img style="border: none;" src="img/web-accessibility-components_3.png" alt="Web Accessibility Komponenten">
+          </section>
+          <section>
+            <h3>Web Accessibility Initiative (WAI)</h3> 
+            <p>Ca. 150  Menschen aus Industrie, Behindertenorganisationen, Behörden und Forschungslabors.</p>
+            <p></p>
+          </section>
+          <section>
+            <h4>Web Accessibility Working Group (WA WG)</h4>
+            <p>Auszug der Mitgliederliste:</p>
+            <ul>
+              <li>Steve Faulkner, <i>The Paciello Group</i></li>
+              <li>Joshue O Connor, <i>InterAccess</i></li>
+              <li>Loretta Guarino Reid, <i>Google</i></li>
+              <li>Cynthia Shelly, <i>Microsoft</i></li>
+              <li>Andrew Kirkpatrick, <i>Adobe</i></li>
+              <li>Drew LaHart, <i>IBM</i></li>
+              <li>Gregg Vanderheiden, <i>University of Wisconsin</i></li>
+              <li>&hellip;</li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- WCAG 2.0 -->
+        <section>
+          <h1 style="position: absolute !important; clip: rect(1px, 1px, 1px, 1px); padding:0 !important; border:0 !important; height: 1px !important; width: 1px !important; overflow: hidden;">Teil 3</h1>
+          <section class="topic">
+            <h2>WCAG 2.0</h2>
+            <p style="font-size: .89em;">Blick auf die Web Content Accessibility Guidelines.</p>
+          </section>
+          <section>
+            <h3>WCAG 2.0</h3>
+            <p>Der Guideline umfasst eine breite Palette von Empfehlungen für die Bereitstellung von Webinhalten für Menschen mit Behinderungen/Einschränkungen, u.a.:</p>
+          </section>
+          <section>
+            <ul>
+             	<li>Blindheit und Sehschwäche</li>
+							<li>Taubheit und Hörverlust</li>
+							<li>Lernschwierigkeiten</li>
+							<li>kognitive Einschränkungen</li>
+							<li>begrenzte Bewegungen</li>
+							<li>Sprachbehinderungen</li>
+							<li>Lichtempfindlichkeit</li>
+							<li>sowie Kombinationen dieser Einschränkungen</li> 
+            </ul>
+          </section>
+          <section>
+            <h3>Wen betrifft das?</h3>
+            <p><i>&quot;Eine Milliarde Menschen oder 15% der Weltbevölkerung, leben mit irgendeiner Form von Behinderung.&quot;</i></p>
+            <p>Weltbank</p>
+          </section>
+          <section>
+            <h3>Umschreibende Zusammenfassung</h3>
+            <p>Die folgenden Seiten enthalten eine pa­ra­phra­sie­rte Zusammenfassung der Web Content Accessibility Guidelines (WCAG) 2.0.</p>
+            <p>Die (normativen) technischen Spezifikationen finden Sie unter <a href="https://www.w3.org/TR/WCAG20/">www.w3.org/TR/WCAG20</a>.</p>
+          </section>
+          <section>
+            <h4>Grundsätze (Principles)</h4>
+            <p>Anforderungen der WCAG an barrierefreiheit:</p>
+            <ol>
+              <li><b style="color: #d75f00;">Wahrnehmbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b>Bedienbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b>Verständlich</b> <i>(3 Richtlinien)</i></li>
+              <li><b>Robust</b> <i>(1 Richtlinie)</i></li>
+            </ol>
+          </section>
+          <section>
+            <h5>1. Wahrnehmbar</h5>
+            <p><b>Allgemeine Anforderung:</b></p>
+            <p><i>&quot;Informationen und Komponenten der Benutzeroberfläche (z.B. Formulare) müssen so aufbereitet sein, dass ein Benutzer sie auf unterschiedliche Art und Weise wahrnehmen kann.&quot;</i></p>
+          </section>
+          <section>
+            <h5>1. Wahrnehmbar</h5>
+            <p>Die Anforderung enthält folgende 4 Richtlinien für Barrierefreiheit:</p>
+            <ol>
+              <li><a href="https://www.w3.org/WAI/WCAG20/quickref/#text-equiv">Textalternativen für Nicht-Text-Inhalte</a></li>
+              <li><a href="https://www.w3.org/WAI/WCAG20/quickref/#media-equiv">Alternativen für zeitbasierte Medien</a></li>
+              <li><a href="https://www.w3.org/WAI/WCAG20/quickref/#content-structure-separation">Anpassungsfähige Inhalte</a></li>
+              <li><a href="https://www.w3.org/WAI/WCAG20/quickref/#visual-audio-contrast">Unterscheidbare Inhalte</a></li>
+            </ol>
+          </section>
+          <section>
+            <h6>1.1. Textalternativen</h6>
+            <hr>
+            <p><i>&quot;Stellen Sie Textalternativen für alle Nicht-Text-Inhalte zur Verfügung, damit diese in andere Formen umgewandelt werden können, z.B. Blindenschrift, Symbole oder einfachere Sprache.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv.html</a></small></p>
+          </section>
+          <section>
+            <h6>1.1. Textalternativen</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 1</b>: Alternative = Text</p>
+            <img style="border: none;" src="img/missing-text-alternative.png" alt="Beispielbild: Unausgefülltes alt-Attribut.">
+          </section>
+          <section>
+            <h6>1.1. Textalternativen</h6>
+            <hr>
+            <p><b>Beispiel 2</b>: Alternative = gesprochenes Wort (Audio)</p>
+            <img style="border: none;" src="img/google-recaptcha.png" alt="Beispielbild für ein Google Captcha mit Audiofunktion">
+          </section>
+          <section>
+            <h6>1.2. Alternativen für zeitbasierte Medien</h6>
+            <hr>
+            <p><i>&quot;Stellen Sie Alternativen für zeitbasierte Medien wie Audio und Video bereit, damit diese in andere Formen umgewandelt werden können, z.B. Blindenschrift, Symbole oder einfachere Sprache.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv.html</a></small></p>
+          </section>
+          <section>
+            <h6>1.2. Alternativen für zeitbasierte Medien</h6>
+            <hr>
+            <p><b>Beispiel</b>: Alternative = Text (Web Video Text Track (.vtt))</p>
+            <img style="border: none;" src="img/video-track-element.jpg" alt="Beispielbild: HTML5 Videoplayer (HTML5-Track-Element und .vtt-Datei.">
+          </section>
+          <section>
+            <h6>1.3. Anpassungsfähig</h6>
+            <hr>
+            <p><i>&quot;Erstellen Sie Inhalte, die auf unterschiedliche Weise dargestellt werden können (z. B. einfacheres Layout), ohne Informationen oder Struktur zu verlieren.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation.html</a></small></p>
+          </section>
+          <section>
+            <h6>1.3. Anpassungsfähig</h6>
+            <hr>
+            <p><b>Beispiel</b>: Inhalt unabhängig von visueller Darstellung</p>
+            <img style="border: none;" src="img/verschieden-darstellbar_1.png" alt="Beispielbild: ZEIT Online Überschrift in gerendert im Browser und Code.">
+          </section>
+          <section>
+            <h6>1.3. Anpassungsfähig</h6>
+            <hr>
+            <p><b>Beispiel</b>: Inhalt unabhängig von visueller Darstellung</p>
+            <img style="border: none;" src="img/verschieden-darstellbar_2.png" alt="Beispielbild: ZEIT Online Überschrift in Kommandozeilenbrowser.">
+          </section>
+          <section>
+            <h6>1.4. Unterscheidbar</h6>
+            <hr>
+            <p><i>&quot;Erleichtern Sie dem Nutzer das Anzeigen und Hören von Inhalten, einschließlich der Trennung des Vordergrunds vom Hintergrund.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast.html</a></small></p>
+          </section>
+          <section>
+            <h6>1.4. Unterscheidbar</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Farbunabhängige Informationen.</p>
+            <img style="border: none;" src="img/form-inaccessible.png" alt="Beispielbild: Nicht barrierefreies Formular">
+          </section>
+          <section>
+            <h6>1.4. Unterscheidbar</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Alternative = Symbole</p>
+            <img style="border: none;" height="244" src="img/form-accessible.png" alt="Beispielbild: Nicht barrierefreies Formular">
+          </section>
+          <section>
+            <h6>1.4. Unterscheidbar</h6>
+            <hr>
+            <p><b>Beispiel 2</b>: Schriftart, Größe und Kontrast.</p>
+            <img style="border: none;" height="244" src="img/readable-fonts.png" alt="Beispielbild: Nicht barrierefreies Formular">
+          </section>
+          <section>
+            <h4>Grundsätze (Principles)</h4>
+            <p>Anforderungen der WCAG an barrierefreiheit:</p>
+            <ol>
+              <li><b>Wahrnehmbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b style="color: #d75f00;">Bedienbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b>Verständlich</b> <i>(3 Richtlinien)</i></li>
+              <li><b>Robust</b> <i>(1 Richtlinie)</i></li>
+            </ol>
+          </section>
+          <section>
+            <h5>2. Bedienbar</h5>
+            <p><b>Allgemeine Anforderung:</b></p>
+            <p><i>&quot;Komponenten der Benutzeroberfläche und Navigation müssen auf unterschiedliche Art und Weise bedienbar sein.&quot;</i></p>
+          </section>
+          <section>
+            <h5>2. Bedienbar</h5>
+            <p>Der Grundsatz enthält folgende 4 Richtlinien für Barrierefreiheit:</p>
+            <ol>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#keyboard-operation">Alle Funktionen müssen per Tastatur zugängig sein</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#time-limits">Genügend Zeit zum Lesen und Verwenden</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#seizure">Inhalte dürfen keine Krampfanfälle verursachen</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#navigation-mechanisms">Navigtion muss einfach sein</a></li>
+            </ol>
+          </section>
+          <section>
+            <h6>2.1. Per Tastatur zugänglich</h6>
+            <hr>
+            <p><i>&quot;Stellen Sie alle Funktionen auch über eine Tastatur zur Verfügung.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation.html</a></small></p>
+          </section>
+          <section>
+            <h6>2.1. Per Tastatur zugänglich</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 1</b>: Unzugänglich</p>
+            <img style="border: none;" src="img/inaccessible-for-keyboard.png" alt="Beispielbild: Das Programm des WUDHH 2017 ist nicht mit Tab ansteuerbar.">
+          </section>
+          <section>
+            <h6>2.2. Genügend Zeit zum Lesen und Verwenden</h6>
+            <hr>
+            <p><i>&quot;Stellen Sie Benutzern ausreichend Zeit zum Lesen und Verwenden von Inhalten zur Verfügung.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits.html</a></small></p>
+          </section>
+          <section>
+            <h6>2.2. Genügend Zeit zum Lesen und Verwenden</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Pause, Stop, Hide</p>
+            <img style="border: none;" src="img/caroussel-pause.jpg" alt="Beispielbild: Ein s.g. Caroussel auf der Webseite bundeskanzlerin.de mit einem Pause-Knopf.">
+          </section>
+          <section>
+            <h6>2.3. Krampfanfälle vermeiden</h6>
+            <hr>
+            <p><i>&quot;Entwerfen Sie Inhalte nicht auf eine Weise, die bekanntermaßen Anfälle verursacht (grob: alles was mehr als 3 Mal/Sekunde blinkt.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure.html</a></small></p>
+          </section>
+          <section>
+            <h6>2.3. Krampfanfälle vermeiden</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 1</b>: Animated Gifs (auch Werbung)</p>
+            <img style="border: none;" src="img/seizures-cowdance.png" alt="Beispielbild: Webseite mit animierten Bildern.">
+          </section>
+          <section>
+            <h6>2.3. Krampfanfälle vermeiden</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Missbrauch</p>
+            <img style="border: none;" src="img/epilepsie-angriff.png" alt="Artikel in der Osnabrücker Zeitung über Angriffe mit Epilepsie-auslösenden Tweets auf Journalisten.">
+          </section>
+          <section>
+            <h6>2.4. Einfaches navigieren</h6>
+            <hr>
+            <p><i>&quot;Bieten Sie Nutzern die Möglichkeit zu navigieren, Inhalte zu finden und zu bestimmen, wo sie sich befinden.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms.html</a></small></p>
+          </section>
+          <section>
+            <h6>2.4. Einfaches navigieren</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Skip Navigation</p>
+            <img style="border: none;" src="img/skip-link.png" alt="Beispielbild: &quot;Direkt zum Inhalt springen&quot; bei ZEIT Online.">
+          </section>
+          <section>
+            <h6>2.4. Einfaches navigieren</h6>
+            <hr>
+            <p><b>Beispiel 2</b>: Breadcrumbs</p>
+            <img style="border: none;" src="img/breadcrumbs.png" alt="Beispielbild: Breadcrubs auf den Seiten von bund.de">
+          </section>
+          <section>
+            <h4>Grundsätze (Principles)</h4>
+            <p>Anforderungen der WCAG an barrierefreiheit:</p>
+            <ol>
+              <li><b>Wahrnehmbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b>Bedienbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b style="color: #d75f00;">Verständlich</b> <i>(3 Richtlinien)</i></li>
+              <li><b>Robust</b> <i>(1 Richtlinie)</i></li>
+            </ol>
+          </section>
+          <section>
+            <h5>3. Verständlich</h5>
+            <p><b>Allgemeine Anforderung:</b></p>
+            <p><i>&quot;Informationen und die Bedienung der Benutzeroberfläche müssen verständlich sein.&quot;</i></p>
+          </section>
+          <section>
+            <h5>3. Verständlich</h5>
+            <p>Der Grundsatz enthält folgende 3 Richtlinien für Barrierefreiheit:</p>
+            <ol>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#meaning">Lesbar und verständlich</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#consistent-behavior">Vorhersehbar</a></li>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#minimize-error">Fehler vermeiden und korrigieren</a></li>
+            </ol>
+          </section>
+          <section>
+            <h6>3.1. Lesbar und verständlich</h6>
+            <hr>
+            <p><i>&quot;Textinhalte müssen lesbar und verständlich sein.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning.html</a></small></p>
+          </section>
+          <section>
+            <h6>3.1. Lesbar und verständlich</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Abkürzungen (Abbreviations)</p>
+            <img style="border: none;" src="img/abbreviations.png" alt="Beispielbild: Nutzung des HTML abbr-Element">
+          </section>
+          <section>
+            <h6>3.1. Lesbar und verständlich</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 2</b>: Sprache</p>
+            <img style="border: none;" src="img/html-language.png" alt="Beispielbild: Nutzung des lang-Attribut am html-Element">
+          </section>
+          <section>
+            <h6>3.2. Vorhersehbar</h6>
+            <hr>
+            <p><i>&quot;Gestalten Sie Webseiten vorhersehbar in Aussehen und Funktion.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior.html</a></small></p>
+          </section>
+          <section>
+            <h6>3.2. Vorhersehbar</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 1</b>: Konsistente Navigation<br><small>Seit über 10 Jahren ein verlässliches Beispiel für inkonsistente Navigation:</small></p>
+            <img style="border: none;" src="img/ibm-navigation.png" alt="Screenshot der Navigationsleiste von ibm.com">
+          </section>
+          <section>
+            <h6>3.3. Fehler vermeiden und korrigieren</h6>
+            <hr>
+            <p><i>&quot;Helfen Sie Benutzern, Fehler zu vermeiden und zu korrigieren.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error.html</a></small></p>
+          </section>
+          <section>
+            <h6>3.3. Fehler vermeiden und korrigieren</h6>
+            <hr>
+            <p><b>(negativ) Beispiel 1</b>: Keine Text-Fehleridentifikation</p>
+            <img style="border: none;" src="img/cinemaxx-error.png" alt="Fehlende Bescheibung eines Fehlers im Text-Format auf der Webseite von Cinemaxx.">
+          </section>
+          
+          <section>
+            <h4>Grundsätze (Principles)</h4>
+            <p>Anforderungen der WCAG an barrierefreiheit:</p>
+            <ol>
+              <li><b>Wahrnehmbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b>Bedienbar</b> <i>(4 Richtlinien)</i></li>
+              <li><b>Verständlich</b> <i>(3 Richtlinien)</i></li>
+              <li><b style="color: #d75f00;">Robust</b> <i>(1 Richtlinie)</i></li>
+            </ol>
+          </section>
+          <section>
+            <h5>4. Robust</h5>
+            <p><b>Allgemeine Anforderung:</b></p>
+            <p><i>&quot;Maximieren Sie die Kompatibilität mit aktuellen und zukünftigen User-agents, einschließlich 	technischer Hilfsmittel für Menschen mit Behinderungen.&quot;</i></p>
+            <p><small><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat.html">https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat.html</a></small></p>
+          </section>
+          <section>
+            <h5>4. Robust</h5>
+            <p>Der Grundsatz enthält folgende Richtlinie für Barrierefreiheit:</p>
+            <ol>
+              <li><a href="http://www.w3.org/WAI/WCAG20/quickref/#re-compat">Kompatibilität</a></li>
+            </ol>
+          </section>
+          <section>
+            <h6>4.1. Kompatibilität</h6>
+            <hr>
+            <p><b>Beispiel 1</b>: Validierung [<a href="https://validator.w3.org/">validator.w3.org</a>]</p>
+            <img style="border: none;" src="img/html-validator.png" alt="Beispielbild: Ergebnis des HTML-Validators">
+          </section>
+          <section>
+            <h6>4.1. Kompatibilität</h6>
+            <hr>
+            <p>Weitere Werkzeuge zur Validierung finden Sie unter:<br><a href="https://www.w3.org/WAI/ER/tools/">https://www.w3.org/WAI/ER/tools/</a></p>
+          </section>
+          <section>
+            <h6>4.1. Robust</h6>
+            <hr>
+            <p>Webseiten, vollständig nach aktuellen Spezifikationen entwickelt, sind robust.</p>
+          </section>
+        </section>
+        
+        <!-- ENVELOPE: BACK -->
+			  <section class="envelope" data-background="#005C8E">
+			    <h2>Vielen Dank!</h2>
+			    <small>Author: <a href="http://jonas.me/" rel="author">Jonas Jared Jacek</a> &middot; License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></small>
+			  </section>
+			</div>
+		</div>
+
+    <script src="../../presentation-framework/2017-03-10/lib/js/head.min.js"></script>
+    <script src="../../presentation-framework/2017-03-10/js/reveal.js"></script>
+
+    <script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/marked.js' },
+					{ src: '../../presentation-framework/2017-03-10/plugin/markdown/markdown.js' },
+					{ src: '../../presentation-framework/2017-03-10/plugin/notes/notes.js', async: true },
+					{ src: '../../presentation-framework/2017-03-10/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+    </script>
+  </body>
+</html>
