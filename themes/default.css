@@ -99,3 +99,10 @@ section.has-dark-background .subtitle {
 .reveal li code {
   font-size: 85%;
 }
+
+/* References
+ * ========================================================================== */
+
+.references li {
+  font-size: .8em !important;
+}
