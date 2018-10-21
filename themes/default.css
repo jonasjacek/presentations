@@ -49,7 +49,7 @@ abbr {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  padding: .2em .4em;
+  padding: .2em .4em .1em;
   }
 .envelope p.subtitle {
   font-size: 1em; 
