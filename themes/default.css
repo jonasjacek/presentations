@@ -100,9 +100,19 @@ section.has-dark-background .subtitle {
   font-size: 85%;
 }
 
-/* References
+/* REFERENCES
  * ========================================================================== */
 
 .references li {
   font-size: .8em !important;
 }
+
+/* BLOCKQUOTE
+ * ========================================================================== */
+ .reveal blockquote {
+  box-shadow: none;
+  width: 100%;
+ }
+ .reveal cite {
+  font-size: .8em;
+ }
