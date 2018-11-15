@@ -59,10 +59,13 @@ abbr {
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
-  text-transform: uppercase;
   text-shadow: none;
+  text-transform: none;
   word-wrap: break-word;
   }
+.envelope p {
+  font-size: .5em;
+}
 section.has-dark-background .subtitle {
   color: #fff;
   }
@@ -73,6 +76,10 @@ section.has-dark-background .subtitle {
 
 .topic {
   text-align: center;
+}
+.topic p {
+  font-size: .9em;
+  text-transform: none;
 }
 .topic p {
   color: #577F00;
