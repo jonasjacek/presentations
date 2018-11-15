@@ -13,8 +13,8 @@ https://www.jonas.me/ -->
     <meta name="robots" content="noindex,follow,noarchive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Introduction to the W3C Web Content Accessibility Guidelines (WCAG)</title>
-    <link rel="stylesheet" href="../../presentation-framework/2018-11-15/css/reveal.css">
-    <link rel="stylesheet" href="../../presentation-framework/2018-11-15/css/theme/white.css">
+    <link rel="stylesheet" href="../../../reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../../../reveal.js/css/theme/white.css">
     <link rel="stylesheet" href="../../themes/default.css">
 
 
@@ -23,7 +23,7 @@ https://www.jonas.me/ -->
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? '../../presentation-framework/2018-11-15/css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../../reveal.js/css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -41,10 +41,10 @@ https://www.jonas.me/ -->
 			  
 				<!-- TOC -->
 				<section class="toc" data-background="#f4f2f0">
-				  <h2>Themen</h2>
+				  <h2>Contents</h2>
 				  <ul>
-            <li><strong>Einordnung</strong><br><small>Die Geschichte des World Wide Web und die Arbeit des W3C.</small></li>
-            <li><strong>Web Accessibility</strong><br><small>Die Arbeit des W3C für Barrierefreiheit im World Wide Web.</small></li>
+            <li><strong>Setting</strong><br><small>History of the World Wide Web and the work of W3C.</small></li>
+            <li><strong>Web Accessibility</strong><br><small>Work of W3C for accessibility on the World Wide Web.</small></li>
             <li><strong>WCAG 2.0</strong><br><small>Blick auf die Web Content Accessibility Guidelines.</small></li>
 				  </ul>
 				</section>
@@ -553,8 +553,8 @@ https://www.jonas.me/ -->
 			</div>
 		</div>
 
-    <script src="../../presentation-framework/2018-11-15/lib/js/head.min.js"></script>
-    <script src="../../presentation-framework/2018-11-15/js/reveal.js"></script>
+    <script src="../../../reveal.js/lib/js/head.min.js"></script>
+    <script src="../../../reveal.js/js/reveal.js"></script>
 
     <script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -563,10 +563,10 @@ https://www.jonas.me/ -->
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: '../../presentation-framework/2018-11-15/plugin/markdown/marked.js' },
-					{ src: '../../presentation-framework/2018-11-15/plugin/markdown/markdown.js' },
-					{ src: '../../presentation-framework/2018-11-15/plugin/notes/notes.js', async: true },
-					{ src: '../../presentation-framework/2018-11-15/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '../../../reveal.js/plugin/markdown/marked.js' },
+					{ src: '../../../reveal.js/plugin/markdown/markdown.js' },
+					{ src: '../../../reveal.js/plugin/notes/notes.js', async: true },
+					{ src: '../../../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
     </script>
