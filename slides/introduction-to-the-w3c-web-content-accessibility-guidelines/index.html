@@ -339,9 +339,10 @@ https://www.jonas.me/ -->
             Sources:
             https://www.w3.org/TR/html/semantics-embedded-content.html#alt-text
             -->
-            <h6>1.1. Text alternatives</h6>
-            <p><b>Example 1</b>: <code>&lt;img&gt;</code> alt attribute.</p>
-            <img style="border: none;" src="img/missing-text-alternative.png" alt="Beispielbild: Unausgefülltes alt-Attribut.">
+            <b>Example 1:</b>
+						<p>The <code>alt</code> attribute on the <abbr title="Hypertext Markup Language">HTML</abbr> <code>&lt;img&gt;</code> element is a text alternative.</p>
+						<pre><code data-trim><img src="jonas.jpg" alt="Jonas pulling a face"></code></pre>
+						<img src="img/jonas.jpg" alt="Jonas pulling a face" height="300">
           </section>
           <section>
             <h6>1.1. Text alternatives</h6>
@@ -657,7 +658,7 @@ https://www.jonas.me/ -->
 					{ src: '../../../reveal.js/plugin/markdown/marked.js' },
 					{ src: '../../../reveal.js/plugin/markdown/markdown.js' },
 					{ src: '../../../reveal.js/plugin/notes/notes.js', async: true },
-					{ src: '../../../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '../../../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 				]
 			});
     </script>
