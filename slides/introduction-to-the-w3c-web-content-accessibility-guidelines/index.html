@@ -348,22 +348,37 @@ https://www.jonas.me/ -->
           </section>
           <section>
             <b>Example 2:</b>
-
             <p>The audio alternative on captchas ensures content can be perceived, where text is not an option.</p> 
             <img style="border: none;" src="img/google-recaptcha.png" alt="Google captcha with audio option">
           </section>
           <section>
+            <!-- 
+            Source:
+            https://www.w3.org/WAI/WCAG21/quickref/#time-based-media
+            -->
             <h6>1.2. Time-based Media</h6>
             <hr>
-            <p><i>Provide alternatives for time-based media.</i></p>
+            <p><i>Provide alternatives for time-based media like audio and video.</i></p>
             <p><small><a href="https://www.w3.org/WAI/WCAG21/quickref/#time-based-media">https://www.w3.org/WAI/WCAG21/quickref/#time-based-media</a></small></p>
           </section>
           <section>
-            <h6>1.2. Alternativen für zeitbasierte Medien</h6>
-            <hr>
-            <p><b>Beispiel</b>: Alternative = Text (Web Video Text Track (.vtt))</p>
-            <img style="border: none;" src="img/video-track-element.jpg" alt="Beispielbild: HTML5 Videoplayer (HTML5-Track-Element und .vtt-Datei.">
+            <!-- 
+            Sources:
+            https://www.w3.org/TR/webvtt1/
+            https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API
+            -->
+            <b>Example 1:</b>
+            <p>The Web Video Text Track (<code>.vtt</code>) provides timed text tracks, which are a text alternative for prerecorded video contents.</p>
+            <pre><code style="hljs xml" data-trim>
+<video src="video.mp4">
+ <track ... srclang="en" src="en.vtt">
+ <track	... srclang="de" src="de.vtt">
+</video>
+						</code></pre>
           </section>
+					<section>
+            <img style="border: none;" src="img/video-track-element.jpg" alt="Screenshot of HTML5 video player with controls and Web Video Text Track.">
+					</section>
           <section>
             <h6>1.3. Anpassungsfähig</h6>
             <hr>
