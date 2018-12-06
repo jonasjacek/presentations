@@ -15,7 +15,10 @@ https://www.jonas.me/ -->
 		<title>Introduction to the W3C Web Content Accessibility Guidelines (WCAG)</title>
     <link rel="stylesheet" href="../../../reveal.js/css/reveal.css">
     <link rel="stylesheet" href="../../../reveal.js/css/theme/white.css">
-    <link rel="stylesheet" href="../../themes/default.css">
+    <!-- style overrides -->
+    <link rel="stylesheet" href="../../themes/css/default.css">
+    <!-- syntax highlighting (highlight.js) -->
+    <link rel="stylesheet" href="../../themes/css/github.css">
 
 
 		<!-- Printing and PDF exports -->
@@ -340,9 +343,9 @@ https://www.jonas.me/ -->
             https://www.w3.org/TR/html/semantics-embedded-content.html#alt-text
             -->
             <b>Example 1:</b>
-						<p>The <code>alt</code> attribute on the <abbr title="Hypertext Markup Language">HTML</abbr> <code>&lt;img&gt;</code> element is a text alternative.</p>
-						<pre><code data-trim><img src="jonas.jpg" alt="Jonas is pulling a face"></code></pre>
-						<img src="img/jonas.jpg" alt="Jonas is pulling a face" height="300">
+            <p>The <code>alt</code> attribute on the <abbr title="Hypertext Markup Language">HTML</abbr> <code>&lt;img&gt;</code> element is a text alternative.</p>
+            <pre><code class="hljs xml" data-trim><img src="jonas.jpg" alt="Jonas is pulling a face"></code></pre>
+            <img src="img/jonas.jpg" alt="Jonas is pulling a face" height="300">
           </section>
           <section>
             <b>Example 2:</b>
