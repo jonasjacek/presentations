@@ -369,10 +369,10 @@ https://www.jonas.me/ -->
             -->
             <b>Example:</b>
             <p>The Web Video Text Track (<code>.vtt</code>) provides timed text tracks (captions / subtitles) for prerecorded video contents.</p>
-            <pre><code style="hljs xml" data-trim>
+            <pre><code class="hljs xml" data-trim>
 <video src="video.mp4">
- <track ... srclang="en" src="en.vtt">
- <track	... srclang="de" src="de.vtt">
+ <track srclang="en" src="en.vtt">
+ <track srclang="de" src="de.vtt">
 </video>
 						</code></pre>
           </section>
@@ -567,7 +567,7 @@ https://www.jonas.me/ -->
             <b>Example 1:</b>
             <p>Visible/invisible link to skip navigation</p>
             <img style="border: none;" src="img/visible-skip-link.png" alt="Screenshot of w3.org homepage, displaying a skip link.">
-            <pre><code style="hljs xml" data-trim>
+            <pre><code class="hljs xml" data-trim>
 <a class="skip-link" href="#content">Skip to content</a>
 						</code></pre>
           </section>
@@ -627,21 +627,26 @@ https://www.jonas.me/ -->
           <section>
             <!--
             Sources:
+            https://www.w3.org/WAI/WCAG21/quickref/#language-of-parts
+            https://www.w3.org/TR/html/dom.html#the-lang-and-xmllang-attributes
+            -->
+            <b>Example 1:</b>
+            <p>The <code>lang</code> attribute defines the language of an element.</p>
+            <pre><code class="hljs xml" data-trim>
+<span lang="jp">もしもし</span>
+						</code></pre>
+          </section>
+          <section>
+            <!--
+            Sources:
             https://www.w3.org/WAI/WCAG21/quickref/#abbreviations
             https://www.w3.org/TR/html/textlevel-semantics.html#the-abbr-element
             https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr
             -->
-            <b>Example 1:</b>
-            <p>Provide the expanded form or meaning of abbreviations like <abbr title="HyperText Markup Language">HTML</abbr>.</p>
-            <pre><code style="hljs xml" data-trim>
-<abbr title="HyperText Markup Language">HTML</abbr>
-						</code></pre>
-          </section>
-          <section>
             <b>Example 2:</b>
-            <p>The <code>lang</code> attribute defines the language of an element.</p>
-            <pre><code style="hljs xml" data-trim>
-<html lang="en">
+            <p>Provide the expanded form or meaning of abbreviations like <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+            <pre><code class="hljs xml" data-trim>
+<abbr title="HyperText Markup Language">HTML</abbr>
 						</code></pre>
           </section>
           <section>
@@ -724,7 +729,7 @@ https://www.jonas.me/ -->
           <section data-background="#E3E3E5">
             <h5>References - Books</h5>
             <ol>
-              <li>Title</a><br><small><i>Author</i> - ISBN: XXXXXXXXXXXXX</small></li>
+              <li>Title<br><small><i>Author</i> - ISBN: XXXXXXXXXXXXX</small></li>
             </ol>
           </section>
           <section data-background="#E3E3E5">
