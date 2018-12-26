@@ -1,1 +1,0 @@
-Einführung zu Internetstandards, Webstandards und Best Current Practices. Der Vortrag bietet einen Überblick über Standards im Internet mit Definitionen und Beispielen. Erfahren Sie mehr über die Normungsgremien für Internet- und WWW-Technologien und welche Vorteile die Nutzung von Standards mit sich bringt.
