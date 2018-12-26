@@ -1,3 +1,7 @@
+---
+redirect_to: https://www.jonas.me/presentations/
+---
+
 # Presentations & Slides by Jonas Jacek
 
 [This repository](https://github.com/jonasjacek/presentations) contains slides and presentations (in HTML and PDF format) by [Jonas Jared Jacek](https://www.jonas.me/). HTML slides are based on the HTML presentation framework [reveal.js](https://github.com/hakimel/reveal.js).
